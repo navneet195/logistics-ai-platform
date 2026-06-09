@@ -1,0 +1,57 @@
+# ─── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# ─── Virtual Environments ─────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# ─── Secrets / Config ─────────────────────────────────────────
+# Keep .env.example but ignore actual .env
+.env
+!.env.example
+
+# ─── Distribution / Build ─────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+MANIFEST
+
+# ─── Testing ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+nosetests.xml
+test-results/
+
+# ─── Type checkers & linters ──────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pyright/
+
+# ─── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── macOS ────────────────────────────────────────────────────
+.DS_Store

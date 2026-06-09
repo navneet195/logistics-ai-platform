@@ -1,0 +1,51 @@
+route_id,origin_port,destination_port,distance_km,avg_transit_days
+R000,Rotterdam,Mumbai,1410,34
+R001,Shanghai,Singapore,7248,13
+R002,Shanghai,Antwerp,12739,10
+R003,Dubai,Antwerp,10420,39
+R004,Hamburg,New York,9137,26
+R005,Antwerp,Hamburg,6011,10
+R006,Shanghai,Singapore,10955,30
+R007,Hamburg,Shanghai,6065,23
+R008,Dubai,New York,2280,33
+R009,Rotterdam,Los Angeles,9812,31
+R010,New York,Antwerp,12555,9
+R011,New York,Antwerp,14306,27
+R012,Rotterdam,Antwerp,13191,34
+R013,Mumbai,Hamburg,1550,28
+R014,Mumbai,Dubai,6956,28
+R015,Dubai,Mumbai,4444,32
+R016,Shanghai,Hamburg,7271,6
+R017,Shanghai,Rotterdam,14466,8
+R018,Mumbai,New York,13694,32
+R019,Antwerp,Singapore,14043,6
+R020,Antwerp,Rotterdam,14395,38
+R021,Shanghai,Rotterdam,1897,27
+R022,Antwerp,Singapore,4052,37
+R023,Shanghai,Shanghai,5614,37
+R024,Dubai,Singapore,11567,29
+R025,Hamburg,Singapore,4651,13
+R026,Rotterdam,Singapore,3036,36
+R027,Los Angeles,New York,9957,38
+R028,Shanghai,Dubai,9234,9
+R029,New York,Mumbai,5653,31
+R030,Hamburg,Singapore,6513,11
+R031,New York,Rotterdam,12029,32
+R032,Shanghai,Rotterdam,5424,17
+R033,Antwerp,Mumbai,2621,11
+R034,Dubai,Shanghai,10381,20
+R035,Antwerp,Antwerp,14154,38
+R036,Hamburg,Los Angeles,8647,7
+R037,Dubai,Singapore,7199,6
+R038,Los Angeles,Antwerp,9859,38
+R039,Antwerp,Shanghai,12576,22
+R040,Singapore,Mumbai,4971,14
+R041,Dubai,Mumbai,9824,25
+R042,Shanghai,Mumbai,4702,24
+R043,Dubai,Shanghai,1163,10
+R044,Singapore,Shanghai,10480,10
+R045,Shanghai,Shanghai,13736,21
+R046,Singapore,Antwerp,4892,10
+R047,Los Angeles,Shanghai,11381,33
+R048,Antwerp,Mumbai,9375,27
+R049,Los Angeles,Dubai,9146,28

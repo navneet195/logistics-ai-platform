@@ -1,0 +1,8 @@
+/* App.css — reset any leftover Vite defaults */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

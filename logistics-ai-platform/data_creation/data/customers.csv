@@ -1,0 +1,1001 @@
+customer_id,customer_name,industry,country,region,risk_score,credit_limit
+C00000,Sutton PLC,Retail,Iran,Americas,3,1172692
+C00001,"Martinez, Miller and Harmon",Electronics,Germany,MEA,46,935261
+C00002,"Williams, Fields and Adams",FMCG,Japan,Europe,85,2291194
+C00003,Brewer Ltd,Retail,El Salvador,APAC,86,1050401
+C00004,Reed-Turner,Pharma,Holy See (Vatican City State),Europe,51,2651965
+C00005,Hernandez LLC,FMCG,Maldives,APAC,96,511422
+C00006,Curry-Cole,Pharma,Croatia,APAC,35,2289936
+C00007,"Cook, Jones and Johnson",Retail,Iran,MEA,92,590666
+C00008,"Young, Morris and Garza",Retail,Guam,Americas,51,4403245
+C00009,Gonzalez Group,FMCG,Austria,Americas,84,3523349
+C00010,"Wilson, Garcia and Benton",Pharma,Mali,Europe,53,2991076
+C00011,"Zavala, Trevino and Hernandez",FMCG,Algeria,APAC,89,2946446
+C00012,Nunez-Silva,Auto,Tunisia,MEA,28,4490987
+C00013,"Stewart, Hanson and Cox",Electronics,Ecuador,MEA,46,2856516
+C00014,"Williams, Williams and Richards",Retail,Bangladesh,MEA,55,3433610
+C00015,Franco Group,Electronics,Tunisia,Europe,14,1377002
+C00016,Evans and Sons,Pharma,Saint Barthelemy,MEA,92,1534340
+C00017,"Moore, Mercer and Chase",Auto,Mauritania,Europe,70,4606090
+C00018,"Ritter, Herrera and Elliott",Electronics,Estonia,MEA,32,2119669
+C00019,Wright-Howard,Pharma,Fiji,Europe,30,3728544
+C00020,Welch-Fox,Auto,Jersey,MEA,19,836381
+C00021,Vargas PLC,Retail,Norway,APAC,11,3022519
+C00022,Shelton-Blake,Pharma,Lao People's Democratic Republic,Americas,1,1227440
+C00023,"Hart, Burns and Gray",FMCG,Belarus,APAC,5,3993679
+C00024,Yang-Gomez,Pharma,Kyrgyz Republic,Europe,50,4936413
+C00025,Patel-Hansen,Retail,Netherlands Antilles,Americas,48,4954527
+C00026,"Henson, Stewart and Mason",Pharma,Norway,MEA,30,2721635
+C00027,"Herrera, Noble and Young",Electronics,Nigeria,MEA,69,4448749
+C00028,Butler-Sheppard,FMCG,Latvia,MEA,21,1510052
+C00029,Howard-Bennett,Pharma,Italy,MEA,99,2980224
+C00030,"Dorsey, Vaughn and Meyer",Retail,Dominican Republic,Americas,42,2124775
+C00031,Carter LLC,Pharma,Slovakia (Slovak Republic),Europe,81,2774533
+C00032,Lee Inc,Auto,Pitcairn Islands,Americas,78,1411072
+C00033,Garza Group,Retail,Israel,Europe,15,3413279
+C00034,Turner-Lawrence,Electronics,Martinique,Europe,66,3576104
+C00035,Sanders Ltd,FMCG,Estonia,APAC,2,2943310
+C00036,Cortez LLC,FMCG,Greenland,APAC,45,4208479
+C00037,Young-Williams,Retail,Guinea-Bissau,MEA,85,3719241
+C00038,"Stewart, Cruz and Tucker",Retail,Isle of Man,MEA,91,491711
+C00039,Rojas-Davis,Retail,Zimbabwe,APAC,91,4458058
+C00040,"Miller, Thomas and Sanders",FMCG,Greece,MEA,70,3864587
+C00041,"Clark, Evans and Stewart",Auto,France,Americas,13,2892985
+C00042,Hodges Group,Pharma,Iraq,APAC,13,3597496
+C00043,"Smith, Ramos and Garcia",Retail,Israel,Americas,90,1256624
+C00044,Curry and Sons,Pharma,American Samoa,APAC,18,4243352
+C00045,Johnson Group,Retail,Bahamas,MEA,12,1170049
+C00046,"Osborne, Davis and Blackwell",Electronics,Isle of Man,Americas,99,765195
+C00047,Hanson-Jones,Electronics,Ireland,Europe,31,442116
+C00048,"Scott, Lee and Smith",Auto,Myanmar,Europe,29,1471875
+C00049,Cline and Sons,Auto,Papua New Guinea,Americas,48,1593009
+C00050,Porter-Jackson,Pharma,Singapore,APAC,90,2601320
+C00051,"Taylor, Rodriguez and Morgan",Auto,Australia,APAC,80,1711975
+C00052,Hernandez Ltd,Retail,Kazakhstan,Americas,3,2281121
+C00053,"Brown, Hahn and King",FMCG,Vanuatu,Europe,11,132350
+C00054,"Medina, Stuart and Wilson",Electronics,Tanzania,APAC,37,4443841
+C00055,Green and Sons,Retail,Luxembourg,MEA,78,2078800
+C00056,Fleming-Harris,Auto,Micronesia,Americas,74,3892014
+C00057,Graham-Myers,Auto,Peru,APAC,26,1326098
+C00058,Gibbs-Sutton,FMCG,Holy See (Vatican City State),MEA,68,561309
+C00059,"Ruiz, Maldonado and Casey",Pharma,Bermuda,Europe,21,4315125
+C00060,"Townsend, Jimenez and Roberts",Electronics,Vietnam,Europe,77,4192388
+C00061,"Callahan, Kelley and Phillips",Auto,United States Minor Outlying Islands,APAC,90,3839466
+C00062,Kirby PLC,Retail,India,Europe,73,2011877
+C00063,Bean and Sons,FMCG,Hong Kong,MEA,36,1487097
+C00064,Carroll-Davidson,Pharma,Kazakhstan,APAC,35,1619801
+C00065,Nguyen Ltd,Pharma,Puerto Rico,Europe,4,3901414
+C00066,Walsh PLC,Electronics,Palau,Americas,97,3401391
+C00067,"Gill, Keller and Richmond",Retail,Angola,Americas,45,381961
+C00068,"Brooks, Elliott and White",Retail,Guatemala,MEA,53,200734
+C00069,Robinson-Walters,FMCG,Belgium,MEA,10,183324
+C00070,"Harris, Rogers and Hall",Electronics,British Indian Ocean Territory (Chagos Archipelago),APAC,10,3022174
+C00071,Woodward-Bowen,Electronics,Suriname,Europe,87,3765194
+C00072,"Moreno, Herman and Rodgers",Pharma,Iraq,Europe,75,1654767
+C00073,Jordan-Garcia,FMCG,Saint Helena,Americas,17,4376804
+C00074,White-Sanchez,FMCG,Zambia,APAC,30,2971491
+C00075,Gonzalez-Gomez,Electronics,Iran,Americas,53,3644895
+C00076,Brooks-Farley,Auto,Chad,APAC,31,4657684
+C00077,Abbott-Smith,Pharma,Colombia,MEA,84,702961
+C00078,"Harrison, Morgan and White",Auto,Bhutan,Americas,31,4895051
+C00079,Miller Ltd,Retail,Greece,APAC,50,1608705
+C00080,Washington-Mccall,Electronics,Antarctica (the territory South of 60 deg S),MEA,49,2907951
+C00081,"Johnson, Hunter and Jones",Pharma,United States of America,MEA,70,2504465
+C00082,Powers-Reeves,Electronics,Honduras,MEA,78,4996294
+C00083,"Ross, Adkins and Greer",Retail,Estonia,Europe,44,3976060
+C00084,Andrews-Kelly,FMCG,Costa Rica,MEA,76,3463068
+C00085,Gonzales-Oliver,Auto,Latvia,Americas,7,4540715
+C00086,"Huffman, Ross and Evans",FMCG,Gabon,MEA,88,2537086
+C00087,Allen Inc,Auto,Bolivia,APAC,81,2343109
+C00088,Sanders-Mann,Pharma,Egypt,APAC,49,1022287
+C00089,Grimes LLC,Electronics,France,APAC,64,583558
+C00090,Davis-Pena,FMCG,Yemen,Americas,21,1483669
+C00091,Hunter Ltd,Pharma,Tuvalu,Europe,40,1475058
+C00092,Massey Ltd,FMCG,Syrian Arab Republic,MEA,17,1863421
+C00093,Johnson LLC,Pharma,Macao,Americas,48,3977806
+C00094,"Hunt, Reid and Sweeney",Auto,Niue,Europe,39,4565654
+C00095,Cruz Inc,Pharma,Cote d'Ivoire,Europe,57,655883
+C00096,Ryan LLC,Electronics,Belgium,Europe,2,2063129
+C00097,Ross and Sons,Auto,Lao People's Democratic Republic,Europe,9,166046
+C00098,Garcia Inc,Auto,Guinea-Bissau,Europe,27,3363660
+C00099,Gutierrez-Nielsen,FMCG,Iraq,MEA,54,1165256
+C00100,Herrera-Wright,Auto,Japan,Europe,49,970388
+C00101,"Sanchez, Montoya and Patel",Electronics,Turkmenistan,Americas,22,3176121
+C00102,Munoz PLC,Pharma,Tanzania,Europe,32,678325
+C00103,Jones LLC,FMCG,Antigua and Barbuda,MEA,75,2659803
+C00104,Walker-Drake,Electronics,Romania,APAC,50,310887
+C00105,"Barton, Gray and Hall",FMCG,China,APAC,67,700797
+C00106,Norris-Hernandez,Retail,Syrian Arab Republic,Europe,32,951205
+C00107,Hall Ltd,Auto,Puerto Rico,APAC,71,1814619
+C00108,"Hughes, Graham and French",FMCG,Reunion,APAC,41,2138697
+C00109,Jones Inc,Auto,Norfolk Island,APAC,23,3703023
+C00110,Oconnor Group,Pharma,Thailand,MEA,17,3900956
+C00111,"Gomez, Russo and Webb",Pharma,French Southern Territories,Europe,87,1821725
+C00112,Brown Ltd,Pharma,Russian Federation,MEA,39,4105232
+C00113,"Allen, Miller and Sanchez",Pharma,Ghana,Americas,63,3647880
+C00114,Lee-Cruz,Auto,Congo,Europe,6,3738995
+C00115,Phillips-Wiley,FMCG,Burundi,Europe,94,2794448
+C00116,Jones and Sons,Electronics,Slovenia,APAC,33,2728209
+C00117,Lawrence Group,Auto,Sierra Leone,Americas,36,3253085
+C00118,Newton-Collins,FMCG,Pakistan,MEA,30,2053405
+C00119,"Schultz, Clark and Calderon",Electronics,Jersey,MEA,72,4891050
+C00120,Jackson-Mcconnell,Auto,Armenia,Americas,80,514287
+C00121,Owens-Brooks,FMCG,Zambia,Americas,61,3775189
+C00122,Brady-Miller,FMCG,Mauritania,Europe,4,631421
+C00123,Choi Inc,Electronics,Cayman Islands,Europe,96,936045
+C00124,Page and Sons,FMCG,Bahrain,Americas,89,202014
+C00125,Stanton-Mitchell,Auto,Guernsey,Europe,49,2188699
+C00126,Scott Inc,Retail,Saint Barthelemy,MEA,21,1901852
+C00127,Mendoza-Wright,Retail,Samoa,MEA,55,1088403
+C00128,"Meadows, Martin and Harper",FMCG,Cook Islands,Europe,67,4793769
+C00129,"Edwards, Jordan and Reid",Auto,Pitcairn Islands,Americas,19,2186094
+C00130,White-Smith,Pharma,Kiribati,Europe,39,3574882
+C00131,"Flynn, Baker and Taylor",Pharma,Saint Kitts and Nevis,APAC,35,610833
+C00132,Garcia LLC,Electronics,Malta,APAC,35,2224954
+C00133,"Patel, Miller and Hernandez",Electronics,United Arab Emirates,Americas,78,2066050
+C00134,"Stevenson, Martinez and Smith",Pharma,Bulgaria,Europe,78,2872579
+C00135,Schroeder-Watkins,FMCG,Hungary,Europe,70,2858178
+C00136,Cox-Morales,FMCG,Sudan,APAC,43,3212489
+C00137,Henry Inc,Pharma,Uzbekistan,Europe,31,214461
+C00138,Nelson-Barron,Electronics,Malta,Europe,79,4107696
+C00139,Brown PLC,Pharma,Turkmenistan,APAC,50,4007456
+C00140,"Roman, Rios and Webster",Retail,Italy,Americas,11,3954755
+C00141,Donaldson-Lewis,Pharma,Western Sahara,Europe,90,2558760
+C00142,Garrett and Sons,Pharma,Cocos (Keeling) Islands,APAC,29,3652510
+C00143,Huerta Inc,FMCG,Tokelau,Americas,83,94583
+C00144,Thomas-Johnson,Electronics,Serbia,APAC,60,3690074
+C00145,Nguyen-Adkins,Retail,Saint Pierre and Miquelon,Europe,15,2079892
+C00146,"Roberts, Gill and Lewis",Electronics,Croatia,Americas,75,3047851
+C00147,Smith-Lee,Pharma,Antigua and Barbuda,Europe,83,1603795
+C00148,Sherman PLC,Retail,Dominican Republic,Europe,91,4067732
+C00149,"Jimenez, Robbins and Nunez",Pharma,Tokelau,MEA,91,3495176
+C00150,"Melton, Carr and Wagner",FMCG,Rwanda,Europe,61,2718421
+C00151,"Lee, Jackson and Taylor",Retail,Estonia,Europe,47,3298794
+C00152,Sanchez Ltd,Retail,Montenegro,APAC,36,2002816
+C00153,"Hood, Newton and Edwards",FMCG,Luxembourg,MEA,83,3254645
+C00154,Robinson Inc,Pharma,Guyana,Europe,4,2429151
+C00155,Bird-Russo,Electronics,Chad,Europe,81,1175022
+C00156,Elliott-Gibbs,Pharma,Cape Verde,APAC,26,89154
+C00157,Davis-Johnson,Pharma,Svalbard & Jan Mayen Islands,MEA,81,3163902
+C00158,Simon-Jones,Auto,Netherlands Antilles,Americas,62,2142453
+C00159,Jones Ltd,FMCG,Malta,APAC,24,2522511
+C00160,Dennis Group,FMCG,Bulgaria,Americas,97,790433
+C00161,"Wilson, Ross and Nelson",Retail,Iceland,APAC,25,1072163
+C00162,"Rodriguez, Phelps and Herman",FMCG,Zimbabwe,APAC,69,2760029
+C00163,Johnson-Johnston,Electronics,Afghanistan,APAC,91,2390397
+C00164,Pope PLC,FMCG,Somalia,MEA,60,1550177
+C00165,Thompson Group,Pharma,Bulgaria,Americas,43,4899037
+C00166,Landry-Paul,Pharma,Hong Kong,MEA,88,2985915
+C00167,"Pearson, Davis and Mills",Electronics,Netherlands Antilles,Americas,89,1550419
+C00168,Arias-Clark,Retail,Burundi,MEA,77,1844335
+C00169,Wells-Miller,Auto,Papua New Guinea,APAC,7,989140
+C00170,Smith Ltd,Electronics,Lithuania,Americas,53,3933617
+C00171,Cruz Group,Pharma,Burundi,Europe,65,375509
+C00172,Washington-Stuart,Retail,Faroe Islands,Americas,40,197062
+C00173,Moore-Ramos,Pharma,Saint Martin,Europe,37,4361129
+C00174,"Duncan, Watts and Payne",FMCG,Sweden,Europe,38,4910521
+C00175,"Russell, Hayes and Mcintyre",Retail,Burundi,MEA,57,2037203
+C00176,"Good, Stanley and Stephenson",Pharma,Micronesia,MEA,19,3833628
+C00177,Burgess LLC,Electronics,Argentina,Europe,65,927003
+C00178,Frost PLC,Auto,Eritrea,MEA,34,2714861
+C00179,Wilson and Sons,Pharma,Madagascar,Europe,80,3556635
+C00180,Mccall LLC,Retail,Belgium,Americas,61,4906915
+C00181,Tran and Sons,FMCG,Greece,Americas,17,3136158
+C00182,Meyer-Sharp,Auto,Tonga,Americas,40,111351
+C00183,Lee-Madden,Pharma,Saint Lucia,Europe,83,2266673
+C00184,"Jensen, Gonzales and Robertson",Electronics,Lao People's Democratic Republic,MEA,21,4720912
+C00185,"Martinez, Martinez and Adkins",Auto,American Samoa,Europe,11,4739889
+C00186,"Paul, Hill and Cooley",FMCG,Saint Helena,Americas,91,1471184
+C00187,Munoz-Gentry,FMCG,Korea,APAC,58,4085669
+C00188,Miller-Green,Electronics,Mozambique,Europe,1,4422481
+C00189,Gonzales-Fischer,Auto,Ecuador,APAC,61,3262632
+C00190,Vaughn LLC,Auto,Antigua and Barbuda,APAC,60,3507914
+C00191,Carlson-Case,Electronics,Gibraltar,Europe,42,2622809
+C00192,George and Sons,FMCG,Spain,MEA,53,1147748
+C00193,Jones and Sons,Pharma,Central African Republic,Europe,60,3518264
+C00194,"Taylor, Turner and Mueller",FMCG,Nepal,APAC,21,1093695
+C00195,"White, Reynolds and Herrera",Retail,Mali,Americas,48,760747
+C00196,"Burch, White and Sellers",Auto,Belgium,Americas,66,1481393
+C00197,Williams Ltd,Pharma,Ukraine,APAC,85,2753680
+C00198,"Kim, Rich and Maldonado",FMCG,Papua New Guinea,Americas,40,4596113
+C00199,Riley and Sons,Auto,Benin,APAC,8,2137725
+C00200,Jackson Inc,FMCG,United States Minor Outlying Islands,Europe,81,3456811
+C00201,Bates-Greer,Retail,Portugal,APAC,39,2816534
+C00202,Evans Group,FMCG,Bahamas,Europe,26,4387287
+C00203,Rodriguez-Rivers,Retail,Puerto Rico,Americas,8,1212174
+C00204,Hayes-Delacruz,Electronics,Oman,Europe,56,795486
+C00205,Howell-Howard,Electronics,French Guiana,MEA,57,3711851
+C00206,Francis-Jones,Retail,Samoa,APAC,25,1496938
+C00207,Brown-Chavez,Pharma,South Georgia and the South Sandwich Islands,Americas,34,1487900
+C00208,"Smith, Bryant and Andrews",FMCG,Haiti,APAC,71,1742008
+C00209,Brady LLC,Auto,Pitcairn Islands,Europe,35,2240158
+C00210,Woods-Davis,Pharma,Bhutan,MEA,24,3418019
+C00211,"Harper, Hill and Hanson",FMCG,Bermuda,MEA,23,103583
+C00212,"Willis, Watkins and Watson",Auto,France,Americas,29,3169835
+C00213,Hall and Sons,FMCG,Bulgaria,Americas,1,300429
+C00214,Morris-Walker,FMCG,Tuvalu,Americas,15,203839
+C00215,Patton and Sons,Electronics,Netherlands Antilles,Europe,65,2788627
+C00216,Reed-Gutierrez,Electronics,Comoros,APAC,44,1878872
+C00217,"Reed, Wallace and Young",FMCG,France,APAC,76,75869
+C00218,"Jennings, Smith and Richardson",Auto,Saint Vincent and the Grenadines,Americas,8,2657021
+C00219,"Glover, Martinez and Johnson",Electronics,Faroe Islands,Americas,33,3045814
+C00220,Hernandez and Sons,Retail,Tonga,APAC,21,604837
+C00221,"Silva, Davis and Mcfarland",Pharma,Dominican Republic,MEA,66,398328
+C00222,"Davis, Smith and Howell",Auto,Ecuador,Americas,58,4921490
+C00223,"Frazier, Gonzalez and Mckinney",Electronics,Wallis and Futuna,Europe,51,3864266
+C00224,Mckinney-Pierce,FMCG,China,APAC,63,2659858
+C00225,Noble-Garcia,Auto,Bahamas,MEA,62,2870171
+C00226,Solis-Carter,Auto,Svalbard & Jan Mayen Islands,APAC,75,3926830
+C00227,Dean-Douglas,Retail,El Salvador,Americas,69,2885648
+C00228,"Santiago, Smith and Braun",Electronics,Romania,APAC,84,3846074
+C00229,Hester-Hawkins,Electronics,Bolivia,Europe,8,3210075
+C00230,"Zuniga, Hall and George",Pharma,Mali,Americas,37,4622656
+C00231,Peterson-Rogers,Electronics,Netherlands Antilles,MEA,26,3678551
+C00232,Morton and Sons,FMCG,Pitcairn Islands,MEA,72,4789362
+C00233,Murray Inc,Electronics,Cyprus,APAC,27,2380490
+C00234,Blankenship Inc,Auto,Angola,MEA,38,1643399
+C00235,"Ray, Morris and Young",Auto,Anguilla,Europe,65,69577
+C00236,Morales LLC,FMCG,Belarus,APAC,57,2829483
+C00237,Gonzales-Sanders,Pharma,Nepal,Americas,71,4773575
+C00238,Mcneil-Brown,Auto,French Guiana,Americas,42,2097322
+C00239,"Glass, Carroll and Smith",Pharma,Uruguay,APAC,65,4922648
+C00240,Brown-Key,Auto,Malawi,MEA,35,3358188
+C00241,Green LLC,Auto,Russian Federation,Europe,92,1273973
+C00242,"Greer, Mcfarland and Jimenez",Auto,Lao People's Democratic Republic,APAC,41,1079517
+C00243,"Hughes, Russell and Burke",Auto,Belgium,Europe,3,2136872
+C00244,"Burke, Harris and Foster",Auto,Bolivia,Europe,91,1527014
+C00245,Novak and Sons,Retail,Pakistan,Americas,84,1305278
+C00246,"Vasquez, Gill and Lawson",Pharma,Vietnam,MEA,3,903460
+C00247,Houston Group,FMCG,Equatorial Guinea,MEA,47,4890144
+C00248,Kelly-Clark,Retail,Kyrgyz Republic,APAC,98,2155368
+C00249,Olson PLC,Pharma,Cuba,Americas,65,835570
+C00250,"Smith, White and Singleton",Retail,Ireland,MEA,20,3306460
+C00251,Coleman and Sons,Pharma,Canada,MEA,27,1836191
+C00252,Perry Ltd,Retail,Botswana,APAC,46,4462708
+C00253,"Davis, Carney and Nguyen",FMCG,Greece,Americas,91,1293474
+C00254,"Ross, Frank and Kennedy",Retail,Dominican Republic,Americas,97,2819908
+C00255,Smith LLC,Electronics,Australia,Europe,15,2151436
+C00256,Allen-Watson,Pharma,Samoa,APAC,3,1601516
+C00257,Mason Ltd,Pharma,Central African Republic,Europe,24,2909280
+C00258,"Bradley, Thompson and Lawrence",Auto,Pakistan,Europe,83,2563399
+C00259,Cox-Marshall,Auto,Belgium,Americas,44,826858
+C00260,Martin-Reed,Electronics,Japan,APAC,94,2866628
+C00261,Jones PLC,Pharma,Nicaragua,APAC,35,4277994
+C00262,Thompson LLC,Retail,Sudan,Europe,6,3300649
+C00263,Medina-Walton,Retail,British Virgin Islands,APAC,29,2982775
+C00264,Andrews-Vega,Pharma,Serbia,Europe,98,3211473
+C00265,Greer Ltd,Auto,Slovenia,Americas,76,4716221
+C00266,Edwards Ltd,FMCG,Cyprus,Americas,29,4148849
+C00267,Castillo Group,Auto,Svalbard & Jan Mayen Islands,Europe,33,3593247
+C00268,Hanson Inc,Electronics,Faroe Islands,Americas,33,3407438
+C00269,Wilson and Sons,Auto,Papua New Guinea,Europe,14,2754896
+C00270,"Clark, Lee and Rodriguez",Pharma,Guinea,Americas,53,2933443
+C00271,Sparks-Coleman,Electronics,New Zealand,Americas,19,1779947
+C00272,"Walsh, Browning and Jones",Auto,Equatorial Guinea,Europe,93,4922967
+C00273,Ruiz Ltd,FMCG,Mauritius,MEA,25,4025655
+C00274,Barber-Luna,Electronics,Seychelles,Americas,15,342800
+C00275,Moore-Turner,Retail,Maldives,Americas,97,4432504
+C00276,Wilkins Ltd,Auto,Nauru,MEA,48,4569038
+C00277,Smith PLC,FMCG,Faroe Islands,APAC,27,613890
+C00278,Hart-Allen,Auto,Indonesia,APAC,20,1652526
+C00279,Sutton Ltd,Electronics,Dominican Republic,Americas,53,3937389
+C00280,"Vargas, Everett and Miller",Pharma,Denmark,Europe,33,2836203
+C00281,"Ewing, Lawrence and Reyes",Auto,Central African Republic,Europe,97,4719035
+C00282,Gomez LLC,Pharma,Dominican Republic,APAC,25,1338293
+C00283,"Mcdowell, Vasquez and Merritt",Pharma,Malta,APAC,55,2379579
+C00284,Anderson Ltd,Pharma,Syrian Arab Republic,APAC,88,2130252
+C00285,Odonnell-Rivers,Retail,Isle of Man,APAC,97,2289460
+C00286,Williams Ltd,Retail,New Zealand,Europe,37,2306993
+C00287,"Martin, Solis and Johnson",Retail,Angola,Europe,95,2721502
+C00288,"Sanders, Rodriguez and Guzman",FMCG,Tajikistan,APAC,92,3076890
+C00289,Green Group,Pharma,United Arab Emirates,Americas,36,1706161
+C00290,Owens-Kelley,Retail,Bangladesh,MEA,77,3778343
+C00291,Allen LLC,Pharma,Palau,MEA,46,4708961
+C00292,"Johnson, Yates and Aguilar",Auto,Guam,APAC,36,3571552
+C00293,Suarez Ltd,FMCG,United Kingdom,APAC,41,3733563
+C00294,"Bates, Stout and Barrett",FMCG,Barbados,Europe,40,1979028
+C00295,Summers-Johnson,Pharma,Italy,MEA,77,1774080
+C00296,"Washington, Cervantes and Sandoval",Retail,Faroe Islands,Americas,8,1493202
+C00297,Proctor-Williams,Pharma,Benin,Europe,93,3923732
+C00298,"Fox, Sanders and Hudson",FMCG,Greenland,MEA,55,463476
+C00299,"Carpenter, Campbell and Alvarado",Electronics,Belize,Europe,4,4832487
+C00300,Holloway-Holt,Electronics,Vanuatu,Europe,46,3824581
+C00301,"Miller, Poole and Baker",Auto,Greece,Americas,8,4442953
+C00302,Cannon PLC,Electronics,Serbia,APAC,63,3986713
+C00303,Sampson Group,Auto,Bolivia,APAC,29,2679191
+C00304,Smith-Clarke,FMCG,Cape Verde,Americas,23,1627173
+C00305,"Harrington, Jones and Cabrera",FMCG,Kiribati,Europe,63,2095591
+C00306,"Tanner, Young and Rodriguez",Auto,Mexico,Americas,6,325716
+C00307,Shelton-Thomas,Electronics,Burkina Faso,Europe,91,2972956
+C00308,"Ramirez, Hall and Mendoza",FMCG,South Georgia and the South Sandwich Islands,APAC,82,4541301
+C00309,"Vargas, Harris and Carter",FMCG,Honduras,Americas,41,3585426
+C00310,Eaton and Sons,Retail,Fiji,APAC,60,4072844
+C00311,Williams LLC,Auto,Italy,Europe,3,4861063
+C00312,"Parker, Walters and Lutz",FMCG,Martinique,APAC,75,1873320
+C00313,Smith Inc,Electronics,Tokelau,Americas,38,2624803
+C00314,Fields-Valentine,Auto,China,APAC,63,3604620
+C00315,"Woods, Frost and Travis",Pharma,Slovakia (Slovak Republic),Americas,87,1874983
+C00316,Buchanan PLC,Auto,Congo,Europe,43,3459976
+C00317,Maldonado and Sons,Retail,Mauritius,Europe,42,218357
+C00318,Parker PLC,Pharma,Congo,Europe,11,3564065
+C00319,"Rodriguez, Wong and Mcdaniel",Retail,Grenada,MEA,86,1911215
+C00320,"Richards, Willis and King",Pharma,Costa Rica,MEA,15,1485357
+C00321,"Jensen, Small and Paul",FMCG,Trinidad and Tobago,APAC,2,2372121
+C00322,"Wallace, Mullins and Richardson",Pharma,Solomon Islands,MEA,67,723804
+C00323,"Hall, Hernandez and Weeks",Electronics,Korea,APAC,61,2808177
+C00324,Kaufman PLC,FMCG,Saint Helena,Americas,51,1052355
+C00325,"Lawson, Garza and Torres",Retail,Latvia,APAC,26,4845003
+C00326,"Brown, Cook and Brewer",Electronics,Latvia,MEA,56,4857573
+C00327,Nelson Ltd,FMCG,Armenia,Americas,65,2406390
+C00328,"Gallegos, Wells and Walker",Auto,British Indian Ocean Territory (Chagos Archipelago),Europe,58,640668
+C00329,"Perez, Sanchez and Hall",Auto,Libyan Arab Jamahiriya,Americas,71,3505677
+C00330,Edwards and Sons,Retail,San Marino,Europe,10,287686
+C00331,Bond Ltd,FMCG,Cuba,Americas,55,148622
+C00332,Bush Ltd,Auto,Zambia,MEA,25,96242
+C00333,Smith PLC,Pharma,Faroe Islands,APAC,56,4643125
+C00334,Brown Ltd,Auto,Tunisia,APAC,21,1966912
+C00335,Reed-Garrett,Electronics,Sri Lanka,MEA,52,4119966
+C00336,Sanchez Ltd,Electronics,Chile,MEA,41,1114419
+C00337,"Greene, Lopez and Scott",Retail,Eritrea,Europe,29,3226849
+C00338,Parker Inc,Electronics,Timor-Leste,Americas,15,4572976
+C00339,Hoover-Graham,FMCG,Venezuela,APAC,7,4126521
+C00340,Anderson LLC,Auto,Poland,APAC,19,4926417
+C00341,Kelly-Miller,Retail,Central African Republic,MEA,67,3673245
+C00342,Haas PLC,Auto,Holy See (Vatican City State),MEA,99,2873148
+C00343,"Hoffman, Barnes and Gibson",Auto,Holy See (Vatican City State),Americas,91,4666694
+C00344,"Chang, Baker and Riggs",Pharma,Marshall Islands,Americas,93,2017312
+C00345,Dixon-Cortez,Electronics,Netherlands,Americas,46,4958002
+C00346,Hill PLC,Auto,Saint Kitts and Nevis,Europe,95,4209892
+C00347,Reyes-Hinton,FMCG,Brunei Darussalam,Americas,26,3610103
+C00348,Nichols Group,Pharma,Norfolk Island,MEA,64,2743789
+C00349,Bennett-Young,Auto,Svalbard & Jan Mayen Islands,Europe,35,1929694
+C00350,Allen and Sons,Auto,Saint Lucia,MEA,46,2259631
+C00351,"Cortez, Warner and Waters",Auto,Netherlands,APAC,12,4902754
+C00352,Crane-Johnson,Electronics,Guatemala,MEA,64,477468
+C00353,"Sanders, Martinez and Francis",Electronics,Puerto Rico,Americas,35,517663
+C00354,"Collins, Scott and Werner",Retail,Bahamas,MEA,44,353895
+C00355,Hull Inc,FMCG,Cook Islands,MEA,84,3267819
+C00356,Webb-Jarvis,Pharma,Pakistan,Europe,54,2048207
+C00357,Marks-Miller,Electronics,Azerbaijan,MEA,79,1914662
+C00358,"Davis, Christensen and Lopez",Electronics,Croatia,MEA,33,329061
+C00359,Boone and Sons,Electronics,Austria,MEA,91,3720496
+C00360,Jacobson PLC,Electronics,Taiwan,MEA,56,1292444
+C00361,Miranda Inc,FMCG,United States Virgin Islands,MEA,78,3213243
+C00362,Morse-Faulkner,Auto,Peru,Europe,99,2097064
+C00363,Butler and Sons,Auto,Mongolia,MEA,64,4053540
+C00364,Chen Inc,Electronics,Saint Lucia,Americas,61,177527
+C00365,Williams LLC,Retail,Cayman Islands,APAC,21,4301088
+C00366,Allen PLC,FMCG,Pitcairn Islands,Americas,13,50975
+C00367,Doyle Inc,Pharma,Benin,MEA,19,3314341
+C00368,Patel Ltd,Retail,Mayotte,Europe,96,1303864
+C00369,Mendoza and Sons,FMCG,Ethiopia,Europe,69,3333129
+C00370,"Anderson, Fields and Young",Retail,Cocos (Keeling) Islands,Europe,66,2224769
+C00371,"Burch, Doyle and White",Auto,Singapore,Americas,75,3222363
+C00372,"Love, Robbins and Kaufman",Electronics,Tajikistan,MEA,58,1806992
+C00373,Brown-Mcdaniel,Retail,Thailand,APAC,17,4102090
+C00374,Wells Group,Electronics,Japan,MEA,90,1167719
+C00375,Long-Pope,FMCG,Marshall Islands,Europe,62,100005
+C00376,Johnson-Flores,Retail,Martinique,APAC,41,2911174
+C00377,Adams-Hamilton,Auto,South Georgia and the South Sandwich Islands,APAC,25,1383970
+C00378,"Gross, Padilla and Peters",Pharma,French Polynesia,Americas,81,1908187
+C00379,Glass Group,Retail,Netherlands,APAC,96,988283
+C00380,Greer Group,FMCG,United Arab Emirates,MEA,33,478219
+C00381,Kemp Ltd,Electronics,Austria,Europe,54,1209605
+C00382,Bates-Chavez,FMCG,Bouvet Island (Bouvetoya),APAC,98,3962019
+C00383,Drake-Malone,Retail,Cambodia,APAC,26,3670075
+C00384,Rogers Group,Pharma,Saint Helena,Europe,40,4696710
+C00385,May and Sons,FMCG,Tanzania,Americas,76,4324680
+C00386,Thornton-Fitzpatrick,Pharma,Uruguay,Americas,37,3970037
+C00387,"Shah, Howard and Walker",Electronics,Wallis and Futuna,Americas,41,185507
+C00388,Collins-Robinson,Electronics,New Caledonia,Americas,92,1931409
+C00389,Cortez and Sons,Pharma,Montenegro,Europe,88,967264
+C00390,"Matthews, Johnson and Brown",Auto,Heard Island and McDonald Islands,MEA,54,2582152
+C00391,Nelson-Hopkins,Retail,Myanmar,Americas,91,1892211
+C00392,Griffin-Johnson,Auto,Nauru,Europe,85,341946
+C00393,Castillo PLC,Electronics,Hong Kong,Europe,68,2714203
+C00394,Odonnell-Owens,Auto,Zambia,Americas,84,1043816
+C00395,Zimmerman-Wright,Pharma,Malaysia,MEA,95,549106
+C00396,Watson Inc,FMCG,Aruba,Americas,5,2886400
+C00397,"Guerrero, Young and Wright",Auto,Bhutan,MEA,27,2216925
+C00398,Reynolds Inc,Auto,Eritrea,APAC,82,3026461
+C00399,Lynch-Matthews,Retail,Uganda,Europe,54,2847521
+C00400,Powell PLC,Retail,Spain,APAC,36,4931338
+C00401,"Ortiz, Gallegos and Livingston",FMCG,Nauru,APAC,39,622679
+C00402,Simmons Group,Auto,Portugal,MEA,79,657167
+C00403,Patel-Russell,Electronics,Madagascar,Americas,74,2633134
+C00404,Hays Inc,Auto,United States of America,APAC,79,2526584
+C00405,Sandoval and Sons,Electronics,Pakistan,MEA,97,1703441
+C00406,"Todd, Wood and Martinez",FMCG,Spain,APAC,49,4358331
+C00407,"Evans, Cohen and Guerra",Electronics,Cote d'Ivoire,APAC,41,316429
+C00408,Reyes PLC,Retail,Azerbaijan,APAC,6,1183303
+C00409,Gray Inc,Electronics,British Indian Ocean Territory (Chagos Archipelago),MEA,96,297678
+C00410,Little-Mccarthy,Auto,Ecuador,APAC,93,4901391
+C00411,Hodge Group,Electronics,United States of America,Europe,38,3977938
+C00412,Meza-Thomas,Retail,Anguilla,Europe,12,198917
+C00413,"Chen, Garrett and Jones",Electronics,Netherlands,Europe,97,2309765
+C00414,"Evans, Howard and Weeks",Electronics,French Southern Territories,MEA,41,1586345
+C00415,"Wilson, Stout and Gonzalez",Retail,Iran,Americas,78,4549425
+C00416,"Gallagher, Chambers and Davis",Electronics,Equatorial Guinea,Europe,56,2264269
+C00417,"Robinson, Cortez and Black",Auto,Solomon Islands,Americas,70,4652843
+C00418,Lawrence-King,Pharma,Haiti,Europe,48,3265705
+C00419,Castaneda-Hernandez,Auto,Tonga,Americas,73,470205
+C00420,"Morrow, Price and Mcdaniel",Auto,Angola,MEA,41,575682
+C00421,Perkins-Klein,Pharma,Greece,APAC,27,3386497
+C00422,"Watson, Malone and Reed",Electronics,Moldova,MEA,57,368660
+C00423,"Hopkins, Rubio and Wong",FMCG,Palau,APAC,59,2969057
+C00424,Moran and Sons,Electronics,Japan,Europe,53,2566659
+C00425,"Ray, Hartman and Brown",Retail,Macao,Americas,10,4910541
+C00426,"Beck, Hunter and Wright",FMCG,Cocos (Keeling) Islands,Americas,9,1715064
+C00427,Frazier Group,FMCG,Aruba,Americas,90,813072
+C00428,Jackson-Lee,FMCG,Turks and Caicos Islands,Americas,98,2923980
+C00429,Middleton Group,Electronics,Norfolk Island,APAC,84,3368124
+C00430,"Harrison, Braun and Cook",Electronics,Andorra,MEA,83,2649514
+C00431,Cruz-Ballard,Auto,Taiwan,MEA,67,3227572
+C00432,Mayer-Martin,Electronics,Estonia,Americas,84,3455569
+C00433,"Hunter, Figueroa and Warren",FMCG,Pitcairn Islands,MEA,26,621270
+C00434,Thornton-Stewart,Electronics,Korea,Europe,32,4748811
+C00435,Hunt Inc,Retail,Lithuania,Americas,24,4656793
+C00436,Johnson-Davis,Pharma,Sweden,Europe,18,465176
+C00437,Murphy LLC,Auto,Azerbaijan,Americas,9,1340981
+C00438,Hernandez LLC,Electronics,Cameroon,Americas,80,1603917
+C00439,Dominguez-Boyd,Electronics,British Virgin Islands,APAC,42,2032610
+C00440,Mcdowell-Brewer,FMCG,Uganda,APAC,32,3354809
+C00441,Pittman-Wilson,FMCG,Niger,MEA,30,2784585
+C00442,"Martin, Vance and Sanchez",Pharma,Anguilla,MEA,23,3253784
+C00443,Miller LLC,Auto,Lebanon,MEA,31,3335321
+C00444,Ramirez-Wall,FMCG,Hungary,MEA,79,1032937
+C00445,Johnston Ltd,Auto,Myanmar,Americas,64,2309727
+C00446,"Barnes, Thompson and Aguilar",Electronics,Iceland,Europe,82,4712414
+C00447,Walker-Lyons,Auto,Togo,MEA,82,3353201
+C00448,"Hendrix, Ray and Page",FMCG,Ghana,APAC,23,935595
+C00449,Robles Inc,Pharma,Libyan Arab Jamahiriya,APAC,10,216526
+C00450,King and Sons,Retail,Andorra,Europe,7,2646746
+C00451,"Spears, Cunningham and Rios",Electronics,Taiwan,Americas,85,4813909
+C00452,"Anderson, Contreras and Russell",Electronics,South Georgia and the South Sandwich Islands,APAC,36,2480342
+C00453,Dennis-Hughes,FMCG,Guyana,Americas,19,3447244
+C00454,"Henry, Humphrey and Armstrong",Pharma,Puerto Rico,APAC,1,3408940
+C00455,"Williams, Mcdonald and Miller",Electronics,Guinea-Bissau,Europe,83,2000581
+C00456,"Gonzalez, Clark and Ward",Pharma,Comoros,Americas,13,4273168
+C00457,Smith-Patel,Retail,Antarctica (the territory South of 60 deg S),APAC,98,1520821
+C00458,Curtis LLC,FMCG,Chad,APAC,70,3363685
+C00459,"Kent, Barker and Watts",Pharma,Barbados,Europe,43,1453982
+C00460,Orozco Group,Auto,Taiwan,Europe,86,308328
+C00461,Ramirez-Rivera,Auto,Afghanistan,MEA,35,2510040
+C00462,"Turner, Williams and Smith",Pharma,Luxembourg,Americas,4,2510975
+C00463,Anderson-Griffin,Auto,Bouvet Island (Bouvetoya),Europe,21,3203211
+C00464,Santana-Jones,Retail,Netherlands Antilles,Americas,91,1325309
+C00465,Mckinney-Austin,Auto,Equatorial Guinea,APAC,13,2422273
+C00466,Morrison PLC,FMCG,Peru,Europe,22,3670525
+C00467,Ward-Cherry,Auto,Germany,MEA,11,2751831
+C00468,"Jackson, Schmidt and Williams",FMCG,United States of America,Europe,98,477197
+C00469,Henderson Ltd,Pharma,Qatar,Europe,46,4187897
+C00470,"Hartman, Flores and Johnson",Pharma,Netherlands,APAC,93,3524909
+C00471,"Waters, Howard and Ayers",Pharma,Latvia,MEA,69,331792
+C00472,Glover and Sons,FMCG,Ghana,Americas,89,2278140
+C00473,"Hill, Blackwell and Li",Retail,Saint Pierre and Miquelon,APAC,92,570471
+C00474,Larsen-Peters,Pharma,Qatar,APAC,73,2884754
+C00475,"Collins, Thompson and Hill",Auto,French Polynesia,MEA,85,3251776
+C00476,Welch PLC,Electronics,American Samoa,Americas,20,3489265
+C00477,"Atkinson, Wilcox and Richardson",Auto,Iran,APAC,66,1961560
+C00478,"Long, Johnson and Briggs",Pharma,El Salvador,Europe,75,2286774
+C00479,Guerra Inc,Auto,Tanzania,APAC,58,3402276
+C00480,"Ford, Snow and Olson",Auto,Heard Island and McDonald Islands,APAC,82,3811620
+C00481,"Martin, Mitchell and Jefferson",Auto,Greenland,APAC,68,2081903
+C00482,Wilson PLC,Pharma,Puerto Rico,APAC,55,1766675
+C00483,Campbell-Dominguez,Auto,Dominican Republic,MEA,89,4818193
+C00484,Thomas-Davis,Auto,Maldives,MEA,30,1552711
+C00485,Barker-Watts,FMCG,Monaco,APAC,72,3316371
+C00486,Anderson PLC,Pharma,Kenya,Americas,56,991735
+C00487,"Gutierrez, Kennedy and Jones",Auto,Korea,MEA,24,4963316
+C00488,"Dean, Griffin and Richmond",Pharma,Sao Tome and Principe,MEA,94,423392
+C00489,"Campbell, Stewart and Brown",Electronics,Cuba,Europe,59,2801035
+C00490,Hammond-Mathews,FMCG,Montserrat,APAC,92,3244324
+C00491,"Smith, Cross and Mullen",Pharma,Papua New Guinea,APAC,84,4654214
+C00492,Villegas-Perry,Retail,Netherlands Antilles,Europe,29,2772653
+C00493,"Washington, Bennett and Bush",FMCG,Bahrain,Europe,25,3459207
+C00494,Brown Group,Pharma,Myanmar,MEA,95,1600605
+C00495,Yates-Phillips,Pharma,Spain,Americas,41,2031614
+C00496,Martin Ltd,Auto,France,APAC,32,3076661
+C00497,Sullivan-Young,Auto,Malaysia,Europe,46,1256434
+C00498,Rocha-Sharp,Retail,Italy,Americas,75,3536856
+C00499,Hogan and Sons,FMCG,Palestinian Territory,APAC,9,3123233
+C00500,Murphy-Ramirez,Retail,Austria,MEA,9,4301641
+C00501,"Martinez, Peterson and Myers",Electronics,Colombia,APAC,70,3658739
+C00502,"Mitchell, Barrett and Mcdaniel",Pharma,Cameroon,MEA,89,281368
+C00503,"Cochran, Ross and Villanueva",Auto,Guinea,Europe,27,3700853
+C00504,"Watson, Fox and Clements",Pharma,Swaziland,Americas,45,3030928
+C00505,"Doyle, Carr and Mendez",Auto,Jordan,APAC,34,84594
+C00506,Lewis-Hughes,Retail,Mexico,Europe,58,2049231
+C00507,Potts-Fowler,Auto,Guernsey,Americas,60,4572121
+C00508,Price and Sons,Auto,Mozambique,APAC,18,703955
+C00509,Holmes PLC,Auto,Togo,Americas,64,1675770
+C00510,"Frank, Shelton and Rogers",Retail,Cook Islands,Americas,12,2069561
+C00511,Ware-Johnson,Retail,Costa Rica,APAC,74,4161297
+C00512,"Patterson, Hubbard and Hunt",Electronics,Vietnam,Europe,49,501364
+C00513,Jones Inc,Retail,Namibia,APAC,53,1682169
+C00514,Sanchez LLC,Retail,United States Minor Outlying Islands,MEA,87,1065582
+C00515,Collins-Roberts,FMCG,Guatemala,Europe,53,2071185
+C00516,"Clayton, James and Strickland",Retail,Togo,Europe,9,4208516
+C00517,Browning PLC,Pharma,Mauritania,Europe,38,3140365
+C00518,Ward PLC,Electronics,Botswana,APAC,9,4077855
+C00519,Gregory Group,Pharma,Haiti,MEA,63,1352465
+C00520,Smith-Brock,FMCG,Sri Lanka,MEA,77,4497791
+C00521,Stewart-Richardson,Auto,Romania,Americas,97,2701014
+C00522,Ward LLC,Retail,Heard Island and McDonald Islands,MEA,46,2406811
+C00523,"Vasquez, Smith and Bell",FMCG,Andorra,MEA,87,3422858
+C00524,Jones-Allen,Auto,Sudan,Europe,40,2879640
+C00525,Lopez-Garcia,Electronics,Zambia,APAC,76,2272029
+C00526,"Hicks, Lam and Jones",Pharma,Mali,Europe,48,1206182
+C00527,"Johnson, Parker and Odonnell",FMCG,Antigua and Barbuda,Americas,3,4175571
+C00528,Keller PLC,Retail,Zimbabwe,Europe,89,2569184
+C00529,"Howell, Smith and Snyder",FMCG,Antigua and Barbuda,Europe,17,134714
+C00530,Edwards-Nguyen,Auto,Lesotho,Europe,68,1265796
+C00531,Huber-Rodriguez,Electronics,French Southern Territories,Europe,9,796457
+C00532,"Mcgee, Schneider and Villanueva",Electronics,Korea,Europe,11,488624
+C00533,Banks Inc,FMCG,Netherlands,Europe,35,4894080
+C00534,Rhodes-Price,FMCG,Iran,Europe,85,2654313
+C00535,Wong LLC,Electronics,Tuvalu,Americas,36,945771
+C00536,Khan-Sheppard,Pharma,Dominica,Americas,89,2922824
+C00537,"Collier, Thomas and Obrien",Retail,Kiribati,Americas,25,2236939
+C00538,Kelly-Martin,Electronics,Costa Rica,Americas,46,819106
+C00539,Rivera-Garcia,Retail,South Georgia and the South Sandwich Islands,Americas,4,2921345
+C00540,Galvan Group,Auto,United Arab Emirates,APAC,53,3786105
+C00541,Thomas-Young,Retail,Ecuador,MEA,95,2283557
+C00542,Williams-Gill,FMCG,Algeria,Europe,9,61273
+C00543,Brown-Huff,Retail,Pakistan,APAC,58,3079145
+C00544,Carney Group,Retail,Latvia,Europe,84,2417615
+C00545,Fry-Chapman,FMCG,Comoros,APAC,8,4118141
+C00546,Hughes and Sons,Electronics,Mozambique,Europe,97,3538823
+C00547,"Stanley, Walker and Collins",Auto,Jordan,Americas,72,1335649
+C00548,Pena-Lang,Electronics,Liberia,Americas,75,4751341
+C00549,Castillo PLC,Auto,Tuvalu,Europe,7,4651377
+C00550,"James, Andrews and Hughes",Electronics,Korea,APAC,92,3227721
+C00551,"Castillo, Bailey and Davis",Retail,Afghanistan,Americas,1,2891593
+C00552,"Norman, Webster and Thomas",Auto,Bulgaria,MEA,9,4881266
+C00553,Lin PLC,Auto,France,MEA,30,3631092
+C00554,"Johnson, Dunn and Washington",Pharma,Indonesia,Europe,62,2111031
+C00555,Gregory-Baker,Retail,Tuvalu,Europe,52,1494426
+C00556,Banks PLC,Auto,Gibraltar,MEA,3,1408933
+C00557,Maldonado and Sons,FMCG,Niger,APAC,3,2388510
+C00558,Martin LLC,Pharma,Cape Verde,APAC,76,1677981
+C00559,Conway-Reyes,Electronics,Heard Island and McDonald Islands,MEA,46,3391329
+C00560,Brown-Harris,FMCG,Angola,MEA,73,2894669
+C00561,"Pearson, Nunez and Reed",Pharma,Taiwan,Europe,4,1041906
+C00562,"Parsons, Rogers and Brown",Electronics,Sweden,Americas,11,470605
+C00563,Cardenas-Rios,FMCG,Guatemala,Americas,45,2503863
+C00564,Carroll LLC,Auto,Saint Barthelemy,Americas,74,2291399
+C00565,Huang-Little,FMCG,Saint Pierre and Miquelon,Americas,31,2320918
+C00566,Henderson-Peterson,Pharma,Madagascar,APAC,30,3493535
+C00567,Cherry-Williams,Electronics,Japan,Europe,62,3250016
+C00568,"Walters, Wilson and Jefferson",Electronics,Bouvet Island (Bouvetoya),Europe,52,262728
+C00569,Shelton-Brooks,Retail,Paraguay,MEA,11,2176896
+C00570,Vega-Martinez,Pharma,Cote d'Ivoire,Europe,70,4258734
+C00571,Contreras Group,Pharma,Thailand,Americas,71,2879403
+C00572,Livingston-Ward,Electronics,Algeria,APAC,42,3747699
+C00573,Howell Group,FMCG,Jordan,APAC,35,607042
+C00574,Bowen and Sons,FMCG,Niue,MEA,95,1775833
+C00575,Davis PLC,Auto,Mozambique,Europe,56,1758921
+C00576,"Weiss, Taylor and Ross",Auto,Bolivia,APAC,7,4405017
+C00577,Tucker and Sons,Retail,Suriname,APAC,52,2275451
+C00578,Brooks-Schmidt,Electronics,Vanuatu,MEA,71,1849288
+C00579,Edwards-Garcia,Retail,Dominican Republic,APAC,23,3774021
+C00580,Hurst-Marsh,Retail,North Macedonia,Americas,75,2092130
+C00581,Rodriguez-Brown,Pharma,Tunisia,Europe,86,1004314
+C00582,Garrett and Sons,Electronics,Indonesia,Europe,96,63811
+C00583,Edwards Group,Pharma,Pakistan,Europe,8,4691114
+C00584,Meyer-Miller,Retail,Gibraltar,APAC,15,2475038
+C00585,"Leonard, Parrish and Bailey",Electronics,French Guiana,Europe,28,3678330
+C00586,Miranda Group,Retail,Libyan Arab Jamahiriya,APAC,64,290125
+C00587,Aguilar-Santana,Electronics,Gabon,Americas,94,3943596
+C00588,Jefferson-Beard,Electronics,Burundi,APAC,10,3976245
+C00589,Eaton-Juarez,Electronics,Nicaragua,Europe,52,1142331
+C00590,Beard-Barton,Electronics,Iran,Americas,29,4849144
+C00591,Bentley-Cowan,Pharma,Liechtenstein,MEA,21,3734519
+C00592,Warren-Ward,FMCG,Qatar,Europe,11,609097
+C00593,Johnson-Griffin,Electronics,Lao People's Democratic Republic,Europe,9,810415
+C00594,Lewis-Lowery,Auto,Mali,Europe,80,3745948
+C00595,Smith LLC,Pharma,Chile,Europe,55,4796918
+C00596,"Edwards, Thompson and Calderon",Electronics,Georgia,Americas,80,1858342
+C00597,Owen Inc,Electronics,Turkey,MEA,14,3831060
+C00598,Brown Group,Retail,Saint Lucia,Americas,79,679981
+C00599,"Smith, Juarez and Long",Retail,Papua New Guinea,Europe,53,1291764
+C00600,Bauer LLC,FMCG,Pitcairn Islands,Americas,74,3690678
+C00601,Williams-Martin,FMCG,Palestinian Territory,Americas,10,4276143
+C00602,"Craig, Williams and Gonzalez",Electronics,Lao People's Democratic Republic,Europe,45,4058920
+C00603,Rivera LLC,Pharma,Netherlands,Americas,86,3203633
+C00604,"Wilson, Mullins and Bradley",Retail,Canada,APAC,57,4167768
+C00605,Allen Group,FMCG,Nepal,APAC,73,2520984
+C00606,Evans Ltd,Pharma,Trinidad and Tobago,APAC,35,961935
+C00607,Robinson-Juarez,FMCG,New Zealand,MEA,18,3571766
+C00608,Baker-Tran,Electronics,Svalbard & Jan Mayen Islands,MEA,23,3918953
+C00609,Valentine-Hines,Auto,Latvia,Europe,13,1761660
+C00610,Austin and Sons,Electronics,Qatar,Europe,64,1939494
+C00611,Parker Group,Electronics,Nicaragua,Europe,84,3265640
+C00612,Williams Group,Electronics,Cambodia,Europe,73,2570798
+C00613,"Davis, Lester and Day",Pharma,Saint Helena,APAC,94,2836266
+C00614,Phillips-Martinez,Auto,Isle of Man,APAC,2,4349605
+C00615,Nunez PLC,Pharma,Romania,Europe,57,4433461
+C00616,Wade LLC,Auto,Czech Republic,Europe,60,242880
+C00617,"Ruiz, Rowland and Price",FMCG,Albania,APAC,4,1626856
+C00618,"Vasquez, Sanchez and Morales",Electronics,Antarctica (the territory South of 60 deg S),MEA,46,3839104
+C00619,Brown-Pena,Retail,Dominican Republic,APAC,3,54182
+C00620,Nguyen-Nelson,Pharma,New Zealand,MEA,49,1648945
+C00621,Cook-Kemp,FMCG,Lebanon,MEA,58,4261385
+C00622,Gonzales PLC,FMCG,Wallis and Futuna,Europe,69,2938802
+C00623,"Garza, Ruiz and Shaffer",Electronics,Lithuania,APAC,10,2895968
+C00624,"Garcia, Hill and Yates",FMCG,El Salvador,APAC,52,2580432
+C00625,"Bartlett, Frost and Lewis",Pharma,Colombia,Europe,82,2186369
+C00626,Buchanan Ltd,Electronics,Russian Federation,APAC,25,1995930
+C00627,"Mccarthy, Alvarado and Robinson",FMCG,Aruba,APAC,6,1110811
+C00628,Gonzalez-Sawyer,Retail,Ukraine,MEA,77,1354065
+C00629,"Hurley, Mercado and Hernandez",Auto,Kazakhstan,Americas,62,528297
+C00630,Garner and Sons,Retail,Cote d'Ivoire,Americas,33,2993926
+C00631,"Cole, Franklin and Castillo",Auto,Zimbabwe,Europe,34,3959541
+C00632,Kelley Ltd,Pharma,Botswana,Americas,97,781789
+C00633,"Levine, Thompson and Munoz",Pharma,Taiwan,Europe,80,4481114
+C00634,Parks Ltd,Electronics,Moldova,APAC,38,2991952
+C00635,"Hammond, Pope and Wood",Electronics,Kiribati,MEA,12,1145012
+C00636,Cortez Ltd,Electronics,Guyana,Americas,27,2197868
+C00637,"Lee, Johnson and Gutierrez",Retail,Egypt,APAC,90,2720955
+C00638,Smith-Jimenez,Retail,Paraguay,APAC,39,2277032
+C00639,Callahan PLC,Electronics,Bahrain,Europe,8,558971
+C00640,"Quinn, Sullivan and Murphy",FMCG,Kyrgyz Republic,Europe,96,3595407
+C00641,"Travis, Lloyd and Davis",Pharma,Gabon,MEA,92,1343835
+C00642,"Watkins, Neal and Mcmillan",Retail,Christmas Island,APAC,13,1873750
+C00643,Moran LLC,Retail,Italy,Europe,55,2288265
+C00644,Kelley and Sons,Retail,British Indian Ocean Territory (Chagos Archipelago),APAC,92,3448619
+C00645,Goodman-Wagner,Auto,Samoa,Americas,50,4170765
+C00646,Smith-Herman,FMCG,Guyana,Europe,51,2457251
+C00647,"Murray, Reese and Richardson",Pharma,Jordan,APAC,67,550192
+C00648,Mcclain and Sons,Pharma,Bahamas,Europe,6,3099676
+C00649,Ramirez-Murray,Pharma,Saint Vincent and the Grenadines,Europe,22,1638037
+C00650,Brown Ltd,Auto,Cameroon,APAC,33,2182891
+C00651,"King, Valencia and Washington",Retail,Comoros,APAC,55,1171031
+C00652,"Harvey, Rodriguez and Anderson",Retail,Sweden,Americas,63,4666707
+C00653,Walters-Cabrera,Auto,Comoros,MEA,10,462197
+C00654,Adkins Ltd,Electronics,Sri Lanka,MEA,15,3207696
+C00655,"Morris, Stark and Wells",Retail,Cote d'Ivoire,Europe,41,1097560
+C00656,Smith Inc,Pharma,Lesotho,MEA,44,1136019
+C00657,Francis-Rose,Electronics,South Africa,APAC,45,508650
+C00658,Crawford-Harrison,Retail,Gambia,Europe,89,4138766
+C00659,Stevens-Bowman,FMCG,Ethiopia,Americas,14,1675578
+C00660,Combs-Stewart,Pharma,Brunei Darussalam,Americas,77,3998693
+C00661,Miller PLC,Pharma,Palau,Americas,93,70096
+C00662,Flores-Harrell,Electronics,Netherlands,Americas,70,2388951
+C00663,"Smith, Foley and Mcgrath",FMCG,Micronesia,APAC,30,2574306
+C00664,Glover-Williams,FMCG,El Salvador,Europe,11,1418078
+C00665,Santos-Tate,Pharma,Samoa,MEA,35,3756828
+C00666,Sutton Inc,Auto,Samoa,APAC,38,1000692
+C00667,Wilson-Perry,Pharma,Saint Helena,Americas,62,2315377
+C00668,Johnson-Mays,Pharma,Cameroon,MEA,13,1446702
+C00669,Cook Ltd,Retail,Ireland,Americas,55,861517
+C00670,"Sanchez, Hughes and Mccullough",Pharma,Norfolk Island,Europe,8,1227458
+C00671,Matthews and Sons,Retail,Mauritania,Americas,53,2886566
+C00672,Sloan Group,Auto,Niger,MEA,22,242090
+C00673,Adams-Harris,Electronics,Papua New Guinea,APAC,59,4331645
+C00674,"Gutierrez, Warner and Graves",FMCG,Saudi Arabia,Europe,17,3989202
+C00675,"Hanson, Hoover and Wilcox",Auto,South Africa,MEA,20,219549
+C00676,Robertson-Olson,Pharma,Philippines,MEA,78,4279674
+C00677,Gomez Inc,Auto,Sri Lanka,MEA,16,2170849
+C00678,Phillips Ltd,Electronics,Greece,Europe,99,4844405
+C00679,Strong-James,FMCG,Bouvet Island (Bouvetoya),Americas,69,2228609
+C00680,"Larsen, Hartman and Jenkins",Auto,Marshall Islands,MEA,25,4170045
+C00681,Mann Ltd,Auto,Spain,Americas,1,2606244
+C00682,Ortiz-Davis,Electronics,Maldives,Europe,18,3585588
+C00683,Campbell Group,Auto,Pakistan,MEA,40,2083455
+C00684,Williams-Moore,Electronics,Sri Lanka,MEA,8,67800
+C00685,Parker-Larsen,Electronics,Cyprus,MEA,56,2857273
+C00686,White-Allison,Electronics,Mayotte,MEA,30,130860
+C00687,King-Martinez,FMCG,Antarctica (the territory South of 60 deg S),Americas,2,2399917
+C00688,Dennis-Cannon,Retail,Korea,Americas,70,1081077
+C00689,James-Keith,FMCG,Cameroon,Europe,60,406805
+C00690,Allen LLC,FMCG,Ukraine,APAC,39,1104400
+C00691,King Group,Auto,Martinique,APAC,12,516730
+C00692,Anderson and Sons,Retail,Burkina Faso,APAC,56,1752738
+C00693,Vance-Bender,Electronics,Burundi,Americas,49,170822
+C00694,Smith-Burnett,Pharma,Croatia,Europe,39,4592901
+C00695,Scott PLC,FMCG,Estonia,Americas,62,867409
+C00696,Warner Inc,Electronics,Monaco,Europe,80,3201986
+C00697,Lewis and Sons,Retail,Puerto Rico,Americas,53,489170
+C00698,Hunt-Rose,Pharma,Cuba,MEA,90,2055124
+C00699,"Cisneros, Lynn and Hogan",FMCG,Lithuania,MEA,66,137492
+C00700,Hayes PLC,Pharma,Dominica,Europe,43,2796724
+C00701,Wagner-Jackson,Electronics,Kyrgyz Republic,Americas,33,3580917
+C00702,"Garcia, Arnold and Jackson",Pharma,Iceland,APAC,51,2789654
+C00703,"Kelley, White and Garcia",Auto,Palau,Europe,9,1883365
+C00704,Wang PLC,Auto,El Salvador,MEA,30,1146881
+C00705,"Wolf, Thomas and Lewis",Pharma,Finland,MEA,84,1194832
+C00706,"Ford, Watts and Fernandez",FMCG,Saint Pierre and Miquelon,APAC,50,923905
+C00707,Matthews-Schultz,Retail,Zambia,MEA,85,777319
+C00708,Johnson Group,Electronics,Mexico,MEA,19,3588481
+C00709,Clark and Sons,Retail,Grenada,APAC,40,3711370
+C00710,Brown-Wilson,Electronics,Niue,APAC,96,827076
+C00711,Thomas LLC,Retail,Ukraine,Europe,57,2467288
+C00712,Becker Inc,Retail,Greenland,Americas,76,3609127
+C00713,George-Freeman,FMCG,United Kingdom,Europe,36,4602018
+C00714,"Allison, Villanueva and Lee",FMCG,Slovenia,Europe,74,303893
+C00715,Wilson LLC,Auto,Guinea,Americas,51,600647
+C00716,Baker-Palmer,Pharma,British Indian Ocean Territory (Chagos Archipelago),Americas,20,76997
+C00717,Smith Group,Electronics,Madagascar,APAC,20,2105916
+C00718,Green Group,FMCG,Jordan,Americas,60,2460100
+C00719,"Garcia, Morris and Perry",Retail,Libyan Arab Jamahiriya,Americas,36,2473081
+C00720,Davis-Carr,Pharma,Tonga,APAC,32,1420992
+C00721,"Bailey, Mcgee and Gardner",Electronics,Niue,Americas,42,1434069
+C00722,"Harmon, Ramos and Hensley",Electronics,Vietnam,Americas,28,1200257
+C00723,Young and Sons,Auto,Chad,APAC,87,2735696
+C00724,Stephens Ltd,FMCG,Antigua and Barbuda,Americas,58,3677665
+C00725,"Garcia, Gordon and Parker",Auto,Fiji,MEA,2,814126
+C00726,"Reynolds, Lara and Powell",Electronics,Libyan Arab Jamahiriya,MEA,43,2197555
+C00727,Patel-Pratt,Pharma,Bulgaria,Europe,59,4773071
+C00728,"Ramirez, Mcmillan and Lee",FMCG,Senegal,APAC,23,4337547
+C00729,May Ltd,Pharma,Namibia,APAC,6,3334836
+C00730,Hurst-Sherman,Auto,Maldives,Americas,10,2101915
+C00731,Fox and Sons,FMCG,Niue,MEA,43,3654754
+C00732,Taylor Ltd,Retail,Tajikistan,Europe,3,3367260
+C00733,Diaz PLC,Retail,Dominican Republic,Americas,69,210883
+C00734,Wright Inc,FMCG,Nigeria,Europe,40,3312957
+C00735,"Thomas, Mccormick and Lawrence",Electronics,Oman,Europe,87,3628776
+C00736,"Romero, Patel and Murillo",Pharma,Mozambique,Americas,3,160294
+C00737,Fox-Wilson,Auto,Algeria,Americas,39,374284
+C00738,"Shannon, Wagner and Gonzalez",FMCG,Guadeloupe,APAC,32,2075073
+C00739,Mcdonald-Burgess,Pharma,Guinea-Bissau,Europe,92,223994
+C00740,Stephens-Bradshaw,Auto,North Macedonia,Americas,57,2649564
+C00741,Torres-Valentine,Pharma,Wallis and Futuna,Americas,30,3612520
+C00742,"Davenport, Riley and Russell",Auto,Tuvalu,MEA,77,2457042
+C00743,"Paul, Elliott and Perez",Retail,Hungary,MEA,6,2088631
+C00744,"Kim, Ashley and Fleming",Pharma,Vanuatu,Europe,77,994763
+C00745,"Richardson, Mccoy and Moore",FMCG,Bouvet Island (Bouvetoya),APAC,75,4379835
+C00746,Espinoza-Ortiz,FMCG,Turkmenistan,Americas,39,1891899
+C00747,"Mcdonald, Murphy and Smith",FMCG,Japan,Americas,99,3569279
+C00748,Howe Group,Electronics,South Africa,APAC,22,1874978
+C00749,"Boyle, Chambers and Clark",Pharma,Suriname,Americas,7,3448725
+C00750,Irwin Group,Auto,France,Europe,86,251049
+C00751,Chambers PLC,Auto,Guadeloupe,Americas,41,2149599
+C00752,Davidson LLC,Electronics,Jersey,MEA,85,169869
+C00753,West-Gray,Auto,Malta,APAC,47,1308081
+C00754,Taylor-Caldwell,Electronics,Niger,APAC,26,3589795
+C00755,"Ritter, Macdonald and Lyons",Pharma,Bhutan,MEA,20,4855160
+C00756,"Cox, Kelly and Hale",FMCG,Nigeria,APAC,40,4945467
+C00757,Frederick LLC,FMCG,Sierra Leone,APAC,69,4872727
+C00758,"Aguirre, Herman and Anderson",Retail,Guyana,MEA,37,1359867
+C00759,Romero-Lambert,Electronics,Portugal,MEA,27,3029058
+C00760,"Barnes, Giles and Lane",Pharma,Afghanistan,MEA,90,1757482
+C00761,Wheeler-Fletcher,Auto,Morocco,Europe,36,1773367
+C00762,"Owens, Davis and Gutierrez",Auto,Micronesia,APAC,92,3604268
+C00763,"Bradford, Moss and Clayton",FMCG,Cyprus,MEA,77,1441150
+C00764,"Middleton, Joseph and Nguyen",Retail,Chile,Americas,47,3798061
+C00765,Rodriguez Inc,FMCG,Saint Helena,MEA,45,743380
+C00766,"Harvey, Johnson and Nguyen",FMCG,Somalia,Europe,9,4999403
+C00767,"Barry, Pratt and Martin",Pharma,Madagascar,Americas,15,3925937
+C00768,Garcia-Wagner,FMCG,Thailand,MEA,4,2356268
+C00769,Mercado and Sons,Retail,Kyrgyz Republic,APAC,54,1159685
+C00770,Mitchell-Branch,Pharma,Christmas Island,APAC,90,379357
+C00771,"Abbott, Taylor and Fuller",FMCG,El Salvador,Americas,20,3639654
+C00772,Rogers-Johnson,Electronics,Cape Verde,MEA,68,2392408
+C00773,"Chambers, Brown and Brown",Retail,Hungary,Americas,82,1152851
+C00774,"Green, Holland and Davis",Pharma,Mongolia,Americas,57,4789153
+C00775,"Gutierrez, Powell and Berry",Electronics,El Salvador,Europe,5,3688937
+C00776,Gill-Friedman,Auto,Solomon Islands,Americas,93,4953581
+C00777,"Strong, Castro and Simmons",Pharma,United Kingdom,MEA,94,392844
+C00778,Medina-Mitchell,FMCG,Belgium,Europe,54,3156657
+C00779,"Gomez, Weaver and Morris",Electronics,Costa Rica,APAC,69,1439553
+C00780,Griffith LLC,Pharma,Gibraltar,APAC,21,65774
+C00781,"Wilson, Clark and Haynes",Retail,Macao,MEA,70,244237
+C00782,Miles-Garcia,Retail,Qatar,Europe,93,649728
+C00783,Robinson and Sons,Auto,Norfolk Island,APAC,87,3787820
+C00784,"Allen, Brooks and Mathews",Electronics,Iceland,MEA,87,415923
+C00785,"Lutz, Anderson and Garrett",FMCG,Isle of Man,Americas,30,1257582
+C00786,Wong-Chan,Electronics,Barbados,MEA,59,418559
+C00787,Morrow-Holden,Electronics,Austria,Americas,46,4234551
+C00788,"Lane, Welch and Hodges",Electronics,Estonia,APAC,30,3244888
+C00789,Anderson-Haley,Retail,Bouvet Island (Bouvetoya),MEA,46,2669712
+C00790,"Conway, Finley and Pacheco",FMCG,Saint Pierre and Miquelon,MEA,9,582619
+C00791,Knight LLC,Auto,Chile,MEA,82,1086599
+C00792,"Vasquez, Underwood and Russell",Pharma,Anguilla,Europe,94,2345986
+C00793,Gonzalez Group,Pharma,Guadeloupe,MEA,62,837196
+C00794,"Ellis, Jones and Lee",Retail,Ethiopia,APAC,52,4907416
+C00795,Chen Inc,Auto,India,MEA,71,3870850
+C00796,"Mosley, Holland and Harris",Electronics,Gambia,Americas,3,1662691
+C00797,Spencer-Compton,Electronics,Saint Vincent and the Grenadines,APAC,7,4360717
+C00798,Willis-Khan,Auto,Belarus,APAC,37,930704
+C00799,Boyd Inc,FMCG,Czech Republic,Europe,61,564868
+C00800,Sandoval-Yang,Pharma,United States Virgin Islands,APAC,26,4130467
+C00801,"Salazar, Morris and Meyer",Pharma,Jamaica,APAC,14,1656856
+C00802,"Hamilton, Wu and Roach",Retail,Cameroon,Europe,42,875524
+C00803,"Carlson, Garrison and Adkins",Electronics,Australia,MEA,4,2769002
+C00804,Parker Group,Retail,Nauru,Europe,33,3804117
+C00805,Clark and Sons,Pharma,Cote d'Ivoire,Europe,93,4825470
+C00806,Arias Ltd,Auto,French Polynesia,Europe,84,3038220
+C00807,Walton Inc,Pharma,Hong Kong,Americas,63,1213734
+C00808,Bullock-James,Retail,Guinea,MEA,79,4340899
+C00809,Guzman PLC,Pharma,Lithuania,APAC,91,2284753
+C00810,"Jones, Henry and Edwards",Retail,Cote d'Ivoire,APAC,81,1321143
+C00811,Cruz-Lang,Pharma,Bermuda,Americas,64,3816440
+C00812,Osborne-Drake,Pharma,Maldives,Americas,59,2506726
+C00813,"Villa, Sutton and Guzman",Auto,Saint Vincent and the Grenadines,MEA,32,1429760
+C00814,"Lee, Bradley and Wiley",Auto,Botswana,MEA,16,1819454
+C00815,Johnston-Harrison,Electronics,Bouvet Island (Bouvetoya),APAC,39,1566859
+C00816,"Garcia, Everett and Nunez",FMCG,Singapore,MEA,7,2274891
+C00817,"Rice, Turner and Watkins",Electronics,Pitcairn Islands,APAC,92,2600779
+C00818,"Payne, Collins and Black",FMCG,Saint Martin,Americas,21,429665
+C00819,Carpenter LLC,Auto,Canada,Americas,11,4386020
+C00820,Reynolds-Gibbs,Electronics,Myanmar,Europe,94,4647633
+C00821,Neal-Mcintosh,Auto,Lao People's Democratic Republic,Europe,7,4569109
+C00822,Harris Ltd,Electronics,Lesotho,MEA,91,2463892
+C00823,"Thompson, Smith and Moreno",FMCG,Canada,Americas,60,3887376
+C00824,Ellis PLC,Retail,Lao People's Democratic Republic,APAC,10,4528117
+C00825,"Mcfarland, Hamilton and Stark",Pharma,Yemen,Americas,17,3875367
+C00826,"Ramirez, Miller and Mays",Auto,Djibouti,Americas,77,2688050
+C00827,Miranda Ltd,FMCG,Christmas Island,Europe,72,2727966
+C00828,"Hopkins, Miranda and Morris",FMCG,Aruba,APAC,25,3786761
+C00829,Trujillo Group,FMCG,Netherlands Antilles,MEA,38,2285207
+C00830,"Watson, Lowe and Hudson",Pharma,Palestinian Territory,APAC,75,3031092
+C00831,Duran-Casey,FMCG,Nepal,APAC,87,3621255
+C00832,Morales LLC,Retail,Liberia,Americas,55,4092532
+C00833,Goodman PLC,Electronics,Romania,MEA,95,3700046
+C00834,Phelps-Brown,FMCG,Sudan,APAC,96,948064
+C00835,Adkins LLC,Retail,Niue,Europe,70,4194610
+C00836,Rice and Sons,Auto,Heard Island and McDonald Islands,Europe,4,4183386
+C00837,Anderson LLC,FMCG,United States of America,MEA,23,3705831
+C00838,Powers Inc,Retail,Myanmar,Europe,13,1756302
+C00839,"Morgan, Weeks and Barrett",Electronics,British Indian Ocean Territory (Chagos Archipelago),Americas,64,4640124
+C00840,"James, Caldwell and Baker",Electronics,Guernsey,MEA,20,1795623
+C00841,Silva and Sons,Retail,Anguilla,MEA,55,2161889
+C00842,Hobbs Inc,Auto,Paraguay,Europe,2,3688337
+C00843,Thornton-Hall,Retail,Sierra Leone,APAC,92,818661
+C00844,"Macias, Gilmore and Williams",Pharma,Finland,APAC,82,4012885
+C00845,Patterson-Martinez,Auto,Myanmar,Europe,72,487925
+C00846,"Horton, Ramirez and Jones",Electronics,South Georgia and the South Sandwich Islands,APAC,91,4907803
+C00847,Gillespie Ltd,Retail,Cocos (Keeling) Islands,APAC,3,583838
+C00848,Hernandez-Freeman,Auto,Saint Helena,APAC,53,604162
+C00849,"Poole, Matthews and Cohen",Retail,Anguilla,APAC,9,4403973
+C00850,"Maldonado, Schultz and Becker",Electronics,Wallis and Futuna,Europe,37,1253754
+C00851,"Hernandez, Ramirez and Shields",Electronics,Uruguay,MEA,12,3092182
+C00852,Henderson-Walker,FMCG,Pakistan,Americas,5,2627456
+C00853,"Oliver, Rose and Mckinney",FMCG,United States Minor Outlying Islands,Europe,48,4056015
+C00854,Warner and Sons,Retail,Panama,Americas,21,1756233
+C00855,Ayers Ltd,Pharma,Slovakia (Slovak Republic),Europe,88,3904520
+C00856,Davies-Hernandez,Pharma,Heard Island and McDonald Islands,Europe,50,649851
+C00857,"Mcintosh, Guzman and Ramos",Auto,Indonesia,Europe,44,4151134
+C00858,Drake PLC,Pharma,Bhutan,Europe,94,833601
+C00859,Suarez-Mcbride,Retail,Mexico,Europe,13,840803
+C00860,Davis-Martin,FMCG,Bahrain,MEA,62,2855305
+C00861,Jones-Tyler,Retail,Jordan,APAC,50,2030118
+C00862,"Morton, Turner and Roy",Retail,British Virgin Islands,Americas,38,2683254
+C00863,Reynolds-Maddox,FMCG,Lao People's Democratic Republic,Europe,23,3363758
+C00864,French and Sons,Retail,Ecuador,MEA,75,4931351
+C00865,Riley-Wilson,Retail,Argentina,APAC,14,3373240
+C00866,Scott Ltd,Retail,El Salvador,MEA,71,4278065
+C00867,Williams-Little,Auto,Italy,APAC,34,2478199
+C00868,Collins Inc,Electronics,Portugal,APAC,15,716269
+C00869,Washington-Shelton,Pharma,Mali,Americas,87,447491
+C00870,"Perkins, Warren and Potter",Retail,Vietnam,Americas,53,2289177
+C00871,Brown Inc,Retail,Bolivia,APAC,21,2717838
+C00872,"Romero, Wilson and Green",Retail,Sierra Leone,APAC,15,463856
+C00873,"Gibson, Snow and Collins",Retail,Zambia,MEA,14,3829783
+C00874,"Kaiser, Burton and Lopez",Auto,Kazakhstan,Europe,46,4389383
+C00875,Jones-Ramos,FMCG,Malaysia,MEA,75,251312
+C00876,Davis-Daniels,Pharma,Australia,APAC,72,2197900
+C00877,Avery Group,Auto,Zimbabwe,MEA,39,1334650
+C00878,"Foley, Henry and Thompson",Retail,Denmark,APAC,32,3444976
+C00879,"Conway, Foster and Collins",Pharma,Sweden,APAC,25,1347317
+C00880,Johnson Group,FMCG,Yemen,APAC,25,4541772
+C00881,"Henry, Taylor and Simpson",FMCG,Anguilla,APAC,31,2305105
+C00882,Fletcher-Torres,Auto,Maldives,Europe,21,169740
+C00883,Hoffman-Klein,Pharma,Anguilla,MEA,64,2898603
+C00884,"Hernandez, Davis and Thomas",Electronics,Morocco,MEA,42,647848
+C00885,Johnson LLC,Auto,Angola,Europe,48,4491967
+C00886,"Garrett, Bailey and Shelton",FMCG,Saint Kitts and Nevis,Europe,56,424626
+C00887,Russell and Sons,Auto,Latvia,MEA,81,2997351
+C00888,Martin PLC,Pharma,Congo,Americas,71,4020155
+C00889,"Allen, Lee and Bell",Pharma,Mauritania,Europe,80,1235570
+C00890,"Allen, Graves and Lewis",FMCG,Hong Kong,Americas,34,3658714
+C00891,"Logan, Sandoval and Curtis",Electronics,Philippines,APAC,68,706442
+C00892,"Brown, Cohen and Boyd",Pharma,New Zealand,MEA,75,2838113
+C00893,Rivera Group,Auto,Pitcairn Islands,Americas,28,1171617
+C00894,"Walsh, Kim and Evans",Retail,Australia,MEA,80,836413
+C00895,Garcia-Gentry,Auto,United Kingdom,MEA,4,499242
+C00896,Villegas PLC,Pharma,Hungary,Americas,58,3454089
+C00897,James and Sons,Auto,China,APAC,83,4233534
+C00898,Bailey-Davis,Electronics,Timor-Leste,Europe,56,2353821
+C00899,Brooks-Reyes,Retail,Northern Mariana Islands,APAC,23,3552299
+C00900,"Price, Hughes and Mcdonald",FMCG,Macao,MEA,69,2964473
+C00901,Sanchez LLC,Retail,Israel,MEA,2,3945069
+C00902,Charles PLC,Pharma,Kazakhstan,APAC,92,4399244
+C00903,Craig PLC,FMCG,Belarus,APAC,28,3286142
+C00904,"Stone, West and Rodriguez",FMCG,Turks and Caicos Islands,MEA,27,2825045
+C00905,Cook Inc,Retail,Saint Vincent and the Grenadines,Americas,53,3262408
+C00906,Reese PLC,Electronics,Somalia,Americas,41,4346172
+C00907,Ward-Mendez,Auto,Mauritius,Europe,77,3435376
+C00908,King Ltd,Auto,Kazakhstan,Americas,56,4605331
+C00909,Wells and Sons,Pharma,Bangladesh,Europe,97,758296
+C00910,"Lynch, Goodman and Lamb",Pharma,Malta,Europe,41,1361562
+C00911,Barnett-Jackson,FMCG,American Samoa,Americas,1,2785587
+C00912,Becker-Adams,Retail,Ireland,Americas,81,1832005
+C00913,"Norris, Gates and Rodriguez",Pharma,Ireland,Europe,15,3412039
+C00914,Benjamin-Matthews,Auto,Iran,Americas,76,98516
+C00915,Russell Group,Electronics,Congo,Europe,61,1144381
+C00916,"Cain, Ray and Palmer",FMCG,Ukraine,Europe,23,2115253
+C00917,Burnett Inc,Electronics,Belgium,APAC,61,3503073
+C00918,"Brown, Sellers and Marsh",Electronics,Christmas Island,MEA,91,695608
+C00919,"Green, Buckley and Wright",Retail,Tonga,Europe,81,4477440
+C00920,"Peters, Schwartz and Parsons",Retail,Chile,MEA,99,959075
+C00921,"Nolan, Cantrell and Newman",Retail,Kyrgyz Republic,APAC,36,273189
+C00922,Horton-Faulkner,Auto,Guadeloupe,Americas,44,3725488
+C00923,Yoder and Sons,Retail,Guam,Americas,87,437441
+C00924,"Foster, Warren and Townsend",Auto,Trinidad and Tobago,Europe,22,1231848
+C00925,Hess and Sons,Retail,Thailand,MEA,73,2309539
+C00926,"Harris, Davis and Clark",Auto,Syrian Arab Republic,MEA,70,333114
+C00927,Maldonado-Davis,Pharma,Bermuda,Europe,30,1712996
+C00928,Kelly-Gregory,Retail,Seychelles,Europe,80,2993623
+C00929,Barnett-Romero,Retail,Marshall Islands,Americas,86,2680638
+C00930,Jenkins-Manning,Auto,Libyan Arab Jamahiriya,Americas,82,4560383
+C00931,Lester Group,Auto,Barbados,MEA,53,667030
+C00932,"Anderson, Cameron and Silva",FMCG,Romania,APAC,96,2660716
+C00933,Williams and Sons,Electronics,Botswana,Americas,90,353412
+C00934,Jackson PLC,Electronics,Venezuela,MEA,39,4103305
+C00935,"Jackson, Peterson and Roberts",Auto,Latvia,APAC,29,3389651
+C00936,"Cordova, Owens and Leonard",FMCG,Czech Republic,APAC,49,1379214
+C00937,May-Fitzgerald,Auto,Gabon,Americas,41,4603856
+C00938,Hudson Group,Auto,French Southern Territories,Europe,71,4827986
+C00939,Alvarado LLC,Retail,Cook Islands,APAC,15,4657208
+C00940,Chen-Wilson,Retail,Guernsey,MEA,44,4072786
+C00941,"Smith, Hernandez and Martinez",Pharma,Chile,Europe,10,2318216
+C00942,"Barnes, Smith and Ortega",Electronics,Israel,APAC,37,1853921
+C00943,Miller-Jones,Pharma,Burundi,Americas,77,1309855
+C00944,"Jones, Richard and Mendoza",Electronics,Cameroon,Europe,81,1429984
+C00945,"Bryant, Alvarado and Hughes",Retail,Kuwait,APAC,48,3338612
+C00946,Lee and Sons,Auto,United States Virgin Islands,APAC,87,2238507
+C00947,Chavez-Huber,Electronics,Lesotho,Americas,97,4889330
+C00948,"Collins, Ford and Anderson",Electronics,Saudi Arabia,Europe,88,4993466
+C00949,"Saunders, Cook and Henry",Retail,Korea,MEA,78,4606513
+C00950,Huang Inc,Pharma,Austria,APAC,4,4231852
+C00951,"Patterson, Norman and Johnson",Pharma,Anguilla,Americas,6,2252961
+C00952,Reed-Bowman,Pharma,Lebanon,Americas,39,2732579
+C00953,Mcdonald Ltd,Auto,New Caledonia,APAC,61,785091
+C00954,Wilkins Ltd,Pharma,United Kingdom,APAC,59,3066859
+C00955,Cross Inc,Electronics,San Marino,APAC,99,437326
+C00956,Russell-Martinez,Auto,Heard Island and McDonald Islands,Europe,17,1271528
+C00957,Gomez Group,FMCG,Lesotho,APAC,16,167513
+C00958,"Martin, Johnson and Ross",FMCG,Ghana,Americas,33,116550
+C00959,"Foster, Cox and Myers",Electronics,Wallis and Futuna,Americas,42,4394792
+C00960,Chang Inc,Electronics,Paraguay,APAC,62,1173267
+C00961,Powell-Hernandez,Retail,Saint Helena,Europe,36,1023669
+C00962,Peters-Little,Pharma,Jordan,MEA,16,1577448
+C00963,"Aguirre, Bush and Johnson",Electronics,Portugal,Americas,87,1936477
+C00964,Travis Group,Electronics,Pakistan,MEA,9,2283165
+C00965,Pratt-Hall,Electronics,Ukraine,APAC,72,1703105
+C00966,"Jenkins, Banks and Crawford",Pharma,Norway,APAC,12,769475
+C00967,"Howard, Christensen and Cameron",FMCG,Equatorial Guinea,MEA,42,4870386
+C00968,Atkins Ltd,FMCG,Macao,Europe,42,3023968
+C00969,"Rodriguez, Rogers and Reynolds",Retail,Trinidad and Tobago,Europe,4,588927
+C00970,Francis Group,Retail,Belgium,Europe,80,4130547
+C00971,Tran-Butler,Auto,Netherlands Antilles,APAC,66,3113095
+C00972,"Walter, Alvarez and Roman",Electronics,China,Europe,44,1672019
+C00973,"Allen, Williams and Vega",Pharma,French Southern Territories,MEA,9,2207475
+C00974,Roberson-Brown,FMCG,Benin,Americas,16,2028283
+C00975,Bell-Rogers,Electronics,Niger,Europe,14,71005
+C00976,Fernandez Ltd,FMCG,Seychelles,Americas,95,3535504
+C00977,"Pierce, Wolfe and Smith",Pharma,Montserrat,Europe,55,2813389
+C00978,Webster LLC,Retail,Saint Pierre and Miquelon,MEA,18,4094667
+C00979,Thompson Ltd,Pharma,Hong Kong,MEA,29,3243556
+C00980,Campbell Group,FMCG,Haiti,Europe,41,476934
+C00981,Marsh-Bowman,Electronics,Luxembourg,Americas,79,2678882
+C00982,Allen PLC,Retail,Antarctica (the territory South of 60 deg S),Americas,66,2605049
+C00983,Fuller-White,Pharma,France,MEA,48,3756559
+C00984,"Peters, Yang and Suarez",Retail,Rwanda,APAC,98,2569145
+C00985,"Morgan, Rhodes and Hart",Retail,Oman,Europe,73,4336097
+C00986,Kim-Tucker,Electronics,Dominican Republic,Americas,32,2502053
+C00987,"Tucker, Jones and Williams",Electronics,Niue,Americas,71,4788073
+C00988,"Thompson, Brown and Williams",Retail,Czech Republic,APAC,30,2974872
+C00989,Duran-Key,FMCG,Nauru,Europe,11,3303154
+C00990,Mitchell Ltd,FMCG,El Salvador,APAC,24,1568588
+C00991,"Larson, Turner and Pitts",Pharma,Congo,APAC,85,646228
+C00992,Davis Inc,Retail,Tuvalu,MEA,96,2656735
+C00993,Brown LLC,Auto,Paraguay,Americas,80,2790312
+C00994,"Cain, Reynolds and Reynolds",Pharma,Trinidad and Tobago,APAC,84,4548027
+C00995,Garcia Inc,Auto,Turkmenistan,APAC,23,1920197
+C00996,Hart PLC,Electronics,Sri Lanka,APAC,23,1953197
+C00997,Johnson LLC,FMCG,Kuwait,Europe,25,694271
+C00998,Howard PLC,Electronics,Congo,Americas,76,2455459
+C00999,Chambers-Cruz,FMCG,Maldives,Americas,53,1346147
