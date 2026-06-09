@@ -1,462 +1,255 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 
+// ─── SVG Icons (Lucide-style) ──────────────────────────────
+const Icons = {
+  Ship: () => (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76" /><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6" /><path d="M12 10v4" /><path d="M12 2v3" /></svg>
+  ),
+  Box: () => (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" /><path d="m3.3 7 8.7 5 8.7-5" /><path d="M12 22V12" /></svg>
+  ),
+  Database: () => (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M3 5V19A9 3 0 0 0 21 19V5" /><path d="M3 12A9 3 0 0 0 21 12" /></svg>
+  ),
+  MessageSquare: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
+  ),
+  Send: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" /></svg>
+  ),
+  Plus: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y2="12" x2="19" y2="12" /></svg>
+  ),
+  Moon: () => (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></svg>
+  ),
+  Sun: () => (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></svg>
+  ),
+  TrendingUp: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17" /><polyline points="16 7 22 7 22 13" /></svg>
+  ),
+  AlertTriangle: () => (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" /><line x1="12" y1="9" x2="12" y2="13" /><line x1="12" y1="17" x2="12.01" y2="17" /></svg>
+  ),
+  Code: () => (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" /></svg>
+  )
+}
+
 // ─── Constants ──────────────────────────────────────────────
 const API_BASE = 'http://localhost:8000'
 
 const SUGGESTIONS = [
-  { label: 'Delayed shipments', query: 'Show me all delayed shipments', icon: '🚨' },
-  { label: 'Cost breakdown', query: 'Show profit analysis by customer', icon: '📊' },
-  { label: 'Recent shipments', query: 'Show me recent shipments', icon: '📦' },
-  { label: 'Overdue invoices', query: 'Show overdue invoices', icon: '💰' },
+  { label: 'Delayed Shipments', query: 'Show me all delayed shipments', icon: <Icons.AlertTriangle /> },
+  { label: 'Profit Analysis', query: 'Show profit analysis by customer', icon: <Icons.TrendingUp /> },
+  { label: 'Route Registry', query: 'Show me all available shipping routes', icon: <Icons.Ship /> },
+  { label: 'Inventory Overview', query: 'Show me recent shipments with container count', icon: <Icons.Box /> },
 ]
 
-// ─── Utility Helpers ────────────────────────────────────────
-function formatTime(date) {
-  return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-}
+// ─── Components ─────────────────────────────────────────────
 
-function formatCell(value, key) {
-  if (value === null || value === undefined) return <span style={{ color: 'var(--text-muted)' }}>—</span>
-
-  const keyLower = key.toLowerCase()
-  const strVal = String(value)
-
-  // Status chips
-  const statusKeys = ['status', 'invoice_status', 'claim_status', 'payment_status']
-  if (statusKeys.includes(keyLower)) {
-    return <span className={`status-chip ${value}`}>{value}</span>
-  }
-
-  // Numeric formatting for money/cost fields
-  const moneyKeys = ['amount', 'cost', 'revenue', 'profit', 'limit', 'credit', 'tax']
-  if (moneyKeys.some(k => keyLower.includes(k)) && !isNaN(value)) {
-    return (
-      <span className="numeric">
-        ${Number(value).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-      </span>
-    )
-  }
-
-  // Generic numeric
-  if (!isNaN(value) && strVal !== '' && keyLower !== 'id' && !keyLower.endsWith('_id')) {
-    return <span className="numeric">{Number(value).toLocaleString()}</span>
-  }
-
-  return strVal
-}
-
-function isNumericCol(key, data) {
-  const moneyKeys = ['amount', 'cost', 'revenue', 'profit', 'limit', 'credit', 'tax']
-  if (moneyKeys.some(k => key.toLowerCase().includes(k))) return true
-  if (data.length > 0 && !isNaN(data[0][key]) && data[0][key] !== null) return true
-  return false
-}
-
-// ─── SQL Result Card ────────────────────────────────────────
 function SQLCard({ sql, data }) {
-  const [expanded, setExpanded] = useState(true)
-
-  if (!data || data.length === 0) {
-    return (
-      <div className="sql-card">
-        <div className="sql-card-header">
-          <span className="sql-label">⚙ SQL Query</span>
-          <span className="row-count">0 rows</span>
-        </div>
-        <div className="sql-code">{sql}</div>
-        <div style={{ padding: '16px', color: 'var(--text-muted)', fontSize: '13px' }}>
-          No results found.
-        </div>
-      </div>
-    )
-  }
-
-  const cols = Object.keys(data[0])
-
+  if (!data) return null
   return (
     <div className="sql-card">
-      <div className="sql-card-header">
-        <span className="sql-label">⚙ Generated SQL</span>
-        <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-          <span className="row-count">{data.length} rows</span>
-          <button
-            onClick={() => setExpanded(e => !e)}
-            style={{
-              background: 'none', border: 'none', cursor: 'pointer',
-              color: 'var(--text-muted)', fontSize: '12px', padding: '2px 6px',
-              borderRadius: '4px', transition: 'color 0.2s'
-            }}
-            onMouseEnter={e => e.target.style.color = 'var(--text-primary)'}
-            onMouseLeave={e => e.target.style.color = 'var(--text-muted)'}
-          >
-            {expanded ? '▲ hide' : '▼ show'}
-          </button>
-        </div>
+      <div className="sql-header">
+        <span className="sql-title"><Icons.Code /> Generated SQL Query</span>
+        <span style={{ fontSize: '11px', color: 'var(--text-muted)' }}>{data.length} results</span>
       </div>
-
-      <div className="sql-code">{sql.trim()}</div>
-
-      {expanded && (
-        <div className="sql-table-wrap">
-          <table className="sql-table">
-            <thead>
-              <tr>
-                {cols.map(c => (
-                  <th key={c} style={{ textAlign: isNumericCol(c, data) ? 'right' : 'left' }}>
-                    {c.replace(/_/g, ' ')}
-                  </th>
+      <div className="sql-code">{sql}</div>
+      <div className="sql-table-container">
+        <table className="sql-table">
+          <thead>
+            <tr>
+              {data.length > 0 && Object.keys(data[0]).map(k => <th key={k}>{k.replace(/_/g, ' ')}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((row, i) => (
+              <tr key={i}>
+                {Object.keys(row).map(k => (
+                  <td key={k}>
+                    {k.toLowerCase().includes('status')
+                      ? <span className={`status-chip ${row[k]}`}>{row[k]}</span>
+                      : String(row[k] ?? '—')}
+                  </td>
                 ))}
               </tr>
-            </thead>
-            <tbody>
-              {data.map((row, i) => (
-                <tr key={i}>
-                  {cols.map(c => (
-                    <td key={c} style={{ textAlign: isNumericCol(c, data) ? 'right' : 'left' }}>
-                      {formatCell(row[c], c)}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-    </div>
-  )
-}
-
-// ─── Message Bubble ─────────────────────────────────────────
-function MessageBubble({ msg }) {
-  const isUser = msg.role === 'user'
-
-  return (
-    <div className="message-group">
-      <div className={`message-row ${msg.role}`}>
-        <div className={`avatar ${isUser ? 'user-avatar' : 'bot-avatar'}`}>
-          {isUser ? 'U' : '🤖'}
-        </div>
-        <div>
-          <div className={`bubble ${msg.role}`}>
-            {isUser ? msg.content : (
-              msg.error
-                ? <span style={{ color: '#fc8181' }}>{msg.content}</span>
-                : msg.content
-            )}
-          </div>
-          <div className={`bubble-meta`} style={{ textAlign: isUser ? 'right' : 'left' }}>
-            {formatTime(msg.time || new Date())}
-          </div>
-        </div>
-      </div>
-
-      {!isUser && msg.sql && msg.data && (
-        <div style={{ paddingLeft: '44px' }}>
-          <SQLCard sql={msg.sql} data={msg.data} />
-        </div>
-      )}
-    </div>
-  )
-}
-
-// ─── Typing Indicator ───────────────────────────────────────
-function TypingIndicator() {
-  return (
-    <div className="message-group">
-      <div className="message-row assistant">
-        <div className="avatar bot-avatar">🤖</div>
-        <div className="bubble assistant">
-          <div className="typing-indicator">
-            <div className="typing-dot" />
-            <div className="typing-dot" />
-            <div className="typing-dot" />
-          </div>
-        </div>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   )
 }
 
-// ─── Chat Input ─────────────────────────────────────────────
-function ChatInput({ onSend, disabled }) {
-  const [text, setText] = useState('')
-  const ref = useRef(null)
-
-  const handleSend = () => {
-    const trimmed = text.trim()
-    if (!trimmed || disabled) return
-    onSend(trimmed)
-    setText('')
-    if (ref.current) {
-      ref.current.style.height = 'auto'
-    }
-  }
-
-  const handleKey = (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault()
-      handleSend()
-    }
-  }
-
-  const handleInput = (e) => {
-    setText(e.target.value)
-    e.target.style.height = 'auto'
-    e.target.style.height = Math.min(e.target.scrollHeight, 140) + 'px'
-  }
-
-  return (
-    <div className="input-area">
-      <div className="input-wrap">
-        <textarea
-          ref={ref}
-          className="chat-textarea"
-          placeholder="Ask anything about shipments, routes, invoices, claims…"
-          value={text}
-          onChange={handleInput}
-          onKeyDown={handleKey}
-          rows={1}
-          disabled={disabled}
-          id="chat-input"
-        />
-        <button
-          className="send-btn"
-          onClick={handleSend}
-          disabled={!text.trim() || disabled}
-          id="send-btn"
-          title="Send message"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24">
-            <line x1="22" y1="2" x2="11" y2="13" />
-            <polygon points="22 2 15 22 11 13 2 9 22 2" />
-          </svg>
-        </button>
-      </div>
-      <div className="input-hint">
-        Press <kbd>Enter</kbd> to send · <kbd>Shift+Enter</kbd> for new line
-      </div>
-    </div>
-  )
-}
-
-// ─── Sidebar ────────────────────────────────────────────────
-function Sidebar({ sessions, activeId, onSelect, onNew }) {
-  return (
-    <aside className="sidebar">
-      <div className="sidebar-header">
-        <div className="sidebar-brand">
-          <div className="brand-icon">🚢</div>
-          <div>
-            <div className="brand-text">LogisticsAI</div>
-            <div className="brand-sub">Analytics Platform</div>
-          </div>
-        </div>
-        <button className="new-chat-btn" onClick={onNew} id="new-chat-btn">
-          <span>＋</span> New Analysis
-        </button>
-      </div>
-
-      <div className="sidebar-sessions">
-        {sessions.length > 0 && (
-          <div className="sessions-label">Recent Sessions</div>
-        )}
-        {sessions.map(s => (
-          <div
-            key={s.id}
-            className={`session-item ${s.id === activeId ? 'active' : ''}`}
-            onClick={() => onSelect(s.id)}
-          >
-            <div className="session-title">{s.title}</div>
-            <div className="session-time">{formatTime(s.createdAt)}</div>
-          </div>
-        ))}
-      </div>
-
-      <div className="sidebar-footer">
-        <div className="db-status">
-          <div className="status-dot" />
-          <span>logistics_db · 100K shipments</span>
-        </div>
-      </div>
-    </aside>
-  )
-}
-
-// ─── Welcome Screen ─────────────────────────────────────────
-function WelcomeScreen({ onSuggestion }) {
+function WelcomeScreen({ onSend }) {
   return (
     <div className="welcome-screen">
-      <div className="welcome-icon">🚢</div>
+      <div className="welcome-logo">
+        <img src="/app_icon.png" alt="LogisticsAI" style={{ width: '100%', borderRadius: 'inherit' }} />
+      </div>
       <div>
-        <h1 className="welcome-title">Logistics AI Platform</h1>
-        <p className="welcome-sub">
-          Query your logistics database in plain English. Ask about shipments,
-          delays, routes, invoices, and claims.
-        </p>
+        <h1 className="welcome-title">Welcome to Logistics AI</h1>
+        <p className="welcome-sub">Analyze your fleet, shipments, and financial performance using natural language queries.</p>
       </div>
       <div className="suggestion-grid">
         {SUGGESTIONS.map(s => (
-          <button
-            key={s.query}
-            className="suggestion-card"
-            onClick={() => onSuggestion(s.query)}
-            id={`suggestion-${s.label.replace(/\s+/g, '-').toLowerCase()}`}
-          >
-            <strong>{s.icon} {s.label}</strong>
-            {s.query}
-          </button>
+          <div key={s.label} className="suggestion-card" onClick={() => onSend(s.query)}>
+            <div className="suggestion-header">
+              <div className="suggestion-icon">{s.icon}</div>
+              <span className="suggestion-label">{s.label}</span>
+            </div>
+            <span className="suggestion-query">{s.query}</span>
+          </div>
         ))}
       </div>
     </div>
   )
 }
 
-// ─── Main App ───────────────────────────────────────────────
 export default function App() {
-  const [sessions, setSessions] = useState([])
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark')
+  const [sessions, setSessions] = useState([
+    { id: '1', title: 'Delayed shipments analytics', createdAt: new Date() },
+    { id: '2', title: 'Q4 Revenue per route', createdAt: new Date() }
+  ])
   const [activeSessionId, setActiveSessionId] = useState(null)
-  const [messagesBySession, setMessagesBySession] = useState({})
+  const [messages, setMessages] = useState([])
+  const [inputText, setInputText] = useState('')
   const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(null)
   const bottomRef = useRef(null)
 
-  const activeMessages = activeSessionId ? (messagesBySession[activeSessionId] || []) : []
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('theme', theme)
+  }, [theme])
 
-  // Auto-scroll to bottom on new messages
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }, [activeMessages, loading])
+  }, [messages, loading])
 
-  const createSession = useCallback((firstQuery) => {
-    const id = crypto.randomUUID()
-    const session = {
-      id,
-      title: firstQuery.length > 40 ? firstQuery.slice(0, 40) + '…' : firstQuery,
-      createdAt: new Date(),
-    }
-    setSessions(prev => [session, ...prev])
-    setActiveSessionId(id)
-    return id
-  }, [])
+  const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark')
 
-  const sendMessage = useCallback(async (text) => {
-    setError(null)
-    let sessionId = activeSessionId
-
-    // Create a new session for first message
-    if (!sessionId) {
-      sessionId = createSession(text)
-    }
-
+  const handleSend = async (text = inputText) => {
+    if (!text.trim()) return
     const userMsg = { role: 'user', content: text, time: new Date() }
-
-    setMessagesBySession(prev => ({
-      ...prev,
-      [sessionId]: [...(prev[sessionId] || []), userMsg],
-    }))
-
+    setMessages(prev => [...prev, userMsg])
+    setInputText('')
     setLoading(true)
 
     try {
       const res = await fetch(`${API_BASE}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text }),
+        body: JSON.stringify({ message: text })
       })
-
-      if (!res.ok) {
-        const errData = await res.json().catch(() => ({}))
-        throw new Error(errData.detail || `Server error: ${res.status}`)
-      }
-
-      const json = await res.json()
-
-      const botMsg = {
-        role: 'assistant',
-        content: `Found ${json.data?.length ?? 0} result${json.data?.length !== 1 ? 's' : ''}.`,
-        sql: json.sql,
-        data: json.data,
-        time: new Date(),
-      }
-
-      setMessagesBySession(prev => ({
-        ...prev,
-        [sessionId]: [...(prev[sessionId] || []), botMsg],
-      }))
+      const data = await res.json()
+      setMessages(prev => [...prev, { role: 'assistant', content: 'Query processed successfully.', ...data, time: new Date() }])
     } catch (err) {
-      const errMsg = {
-        role: 'assistant',
-        content: `Error: ${err.message}. Make sure the backend is running at ${API_BASE}.`,
-        error: true,
-        time: new Date(),
-      }
-      setMessagesBySession(prev => ({
-        ...prev,
-        [sessionId]: [...(prev[sessionId] || []), errMsg],
-      }))
-      setError(err.message)
+      setMessages(prev => [...prev, { role: 'assistant', content: 'Failed to connect to backend.', error: true, time: new Date() }])
     } finally {
       setLoading(false)
     }
-  }, [activeSessionId, createSession])
-
-  const handleNewChat = () => {
-    setActiveSessionId(null)
-    setError(null)
-  }
-
-  const handleSelectSession = (id) => {
-    setActiveSessionId(id)
-    setError(null)
   }
 
   return (
     <div className="app-layout">
-      <Sidebar
-        sessions={sessions}
-        activeId={activeSessionId}
-        onSelect={handleSelectSession}
-        onNew={handleNewChat}
-      />
-
-      <div className="chat-area">
-        {/* Top bar */}
-        <div className="chat-topbar">
-          <div>
-            <div className="topbar-title">
-              {activeSessionId
-                ? sessions.find(s => s.id === activeSessionId)?.title || 'Analysis'
-                : 'New Analysis'}
+      <aside className="sidebar">
+        <div className="sidebar-header">
+          <div className="sidebar-brand">
+            <div className="brand-icon">
+              <img src="/app_icon.png" alt="L" />
             </div>
-            <div className="topbar-subtitle">Natural language → SQL → Results</div>
+            <div>
+              <div className="brand-text">LogisticsAI</div>
+              <div className="brand-sub">Smart Platform</div>
+            </div>
           </div>
-          <div className="topbar-badges">
-            <span className="badge badge-blue">FastAPI</span>
-            <span className="badge badge-green">PostgreSQL</span>
-          </div>
+          <button className="new-chat-btn" onClick={() => { setMessages([]); setActiveSessionId(null); }}>
+            <Icons.Plus /> New Analysis
+          </button>
         </div>
 
-        {/* Messages */}
+        <div className="sidebar-sessions">
+          <div className="sessions-label">Recent Activity</div>
+          {sessions.map(s => (
+            <div key={s.id} className={`session-item ${activeSessionId === s.id ? 'active' : ''}`} onClick={() => setActiveSessionId(s.id)}>
+              <div className="session-icon"><Icons.MessageSquare /></div>
+              <div className="session-content">
+                <div className="session-title">{s.title}</div>
+                <div className="session-time">Today, 2:30 PM</div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="sidebar-footer">
+          <button className="theme-toggle-btn" onClick={toggleTheme}>
+            {theme === 'dark' ? <><Icons.Sun /> Switch to Light</> : <><Icons.Moon /> Switch to Dark</>}
+          </button>
+          <div className="db-status">
+            <div className="status-dot" />
+            <span>Connected: PostgreSQL</span>
+          </div>
+        </div>
+      </aside>
+
+      <main className="chat-area">
+        <header className="chat-topbar">
+          <div>
+            <div className="topbar-title">{activeSessionId ? 'Analysis Report' : 'Global Workspace'}</div>
+            <div className="topbar-subtitle">Active Engine: SQL-GPT-4</div>
+          </div>
+          <div className="topbar-badges">
+            <span className="badge badge-blue">Ready</span>
+            <span className="badge badge-green">Secured</span>
+          </div>
+        </header>
+
         <div className="chat-window">
-          {activeMessages.length === 0 ? (
-            <WelcomeScreen onSuggestion={sendMessage} />
+          {messages.length === 0 ? (
+            <WelcomeScreen onSend={handleSend} />
           ) : (
-            activeMessages.map((msg, i) => (
-              <MessageBubble key={i} msg={msg} />
+            messages.map((m, i) => (
+              <div key={i} className={`message-group ${m.role}`}>
+                <div className="message-row">
+                  <div className="bubble">
+                    {m.content}
+                  </div>
+                </div>
+                {m.sql && <SQLCard sql={m.sql} data={m.data} />}
+                <div className="bubble-meta">{m.time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</div>
+              </div>
             ))
           )}
-          {loading && <TypingIndicator />}
-          {error && (
-            <div className="error-toast">
-              ⚠ {error} — is the backend running? <code>uvicorn app.main:app --reload</code>
+          {loading && (
+            <div className="message-group assistant">
+              <div className="bubble assistant">
+                <div className="typing-dots"><div className="dot" /><div className="dot" /><div className="dot" /></div>
+              </div>
             </div>
           )}
           <div ref={bottomRef} />
         </div>
 
-        {/* Input */}
-        <ChatInput onSend={sendMessage} disabled={loading} />
-      </div>
+        <div className="input-container">
+          <div className="input-box">
+            <textarea
+              className="chat-textarea"
+              placeholder="Query database... (e.g. show me late shipments)"
+              value={inputText}
+              onChange={e => setInputText(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && !e.shiftKey && (e.preventDefault(), handleSend())}
+              rows={1}
+            />
+            <button className="send-btn" onClick={() => handleSend()} disabled={!inputText.trim() || loading}>
+              <Icons.Send />
+            </button>
+          </div>
+        </div>
+      </main>
     </div>
   )
 }
