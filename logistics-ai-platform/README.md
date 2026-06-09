@@ -1,5 +1,7 @@
 # 🚢 Logistics AI Platform
 
+> **Developer Docs:** [Software Design Description (SDD)](./specs/SDD.md)
+
 A full-stack AI-powered logistics analytics platform that lets you query a PostgreSQL database of **100,000+ shipments** using plain English. Type a question, the backend converts it to SQL, executes it, and the frontend renders the results in a beautiful dark-mode table.
 
 ---
@@ -209,14 +211,14 @@ def generate_sql(user_query: str) -> str:
 
 ## 🎨 Frontend Features
 
-- **Dark-mode UI** with glassmorphism cards
-- **Session sidebar** — tracks multiple analysis sessions
-- **Auto-growing textarea** — Shift+Enter for new lines
-- **SQL code display** — shows the generated query
-- **Smart result table** — money formatting, status chips, sticky header, scrollable
-- **Typing indicator** — animated dots while waiting
-- **Suggestion cards** — quick-start queries on the welcome screen
-- **Error handling** — shows actionable error messages
+- **Dual-Theme Support** — Toggle between premium Dark mode and clean Light mode
+- **Professional SVG Icons** — Replaced emojis with industry-standard vector icons
+- **Session Sidebar** — Tracks multiple analysis sessions
+- **Auto-growing Textarea** — Shift+Enter for new lines
+- **SQL Code Display** — Shows the generated query in a syntax-highlighted box
+- **Smart Result Table** — Status chips, sticky header, and scrollable containers
+- **Typing Indicator** — Micro-animations for improved UX
+- **Actionable Suggestions** — One-click queries for common logistics questions
 
 ---
 
